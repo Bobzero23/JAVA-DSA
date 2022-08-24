@@ -22,3 +22,36 @@ When to avoid recursion
 
 Recursion vs Iteration
 * Iteration performs better in terms of space and time
+
+Steps on writing a good Recursive
+* Recursive case -> The method and algorithm which is going to be repeated
+* Base case -> The condition to avoid infinite loop
+* Unintentional case -> is when someone write run your code with negative number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
