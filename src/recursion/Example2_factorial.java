@@ -22,6 +22,6 @@ public class Example2_factorial {
         var rec = factorial(5);
 
         /*displaying the variable*/
-        System.out.println(rec);
+        System.out.println("The factorial is: " + rec);
     }
 }
