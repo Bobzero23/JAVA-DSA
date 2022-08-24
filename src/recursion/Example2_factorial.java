@@ -19,9 +19,12 @@ public class Example2_factorial {
     public static void main(String[] args) {
 
         /*initializing the value of the method to a variable*/
-        var rec = factorial(5);
+        //var rec = factorial(5);
 
         /*displaying the variable*/
-        System.out.println("The factorial is: " + rec);
+        //System.out.println("The factorial is: " + rec);
+
+        /*displaying the result*/
+        System.out.println("The factorial is: " + factorial(5));
     }
 }
