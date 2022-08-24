@@ -1,9 +1,10 @@
 package recursion;
+/*EXECUTING THE FACTORIAL OF A NUMBER USING MAJOR THREE STEPS*/
 
 /*demonstration on how to calculate the factorial of a number using recursion */
 
 /*mian class*/
-public class Example3_factorial {
+public class Example2_factorial2 {
 
     /*factorial method*/
     public int factorial(int n){
@@ -23,7 +24,7 @@ public class Example3_factorial {
     public static void main(String[] args) {
 
         /*creating object of the main class*/
-        Example3_factorial object = new Example3_factorial();
+        Example2_factorial2 object = new Example2_factorial2();
 
         /*initializing the value of factorial method to rec*/
         var rec = object.factorial(5);

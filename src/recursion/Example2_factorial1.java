@@ -1,9 +1,11 @@
 package recursion;
 
+/*THIS CODE IS JUST MY ATTEMPT TO TRY TO EXECUTE A FACTORIAL OF A NUMBER BUT THIS IS NOT A GOOD PRACTICE SO AVOID IT*/
+
 /*In this example we are going to see how to find a factorial of a number using recursion*/
 
 /*main class*/
-public class Example2_factorial {
+public class Example2_factorial1 {
 
     /*Recursion method*/
     static int factorial(int n){
