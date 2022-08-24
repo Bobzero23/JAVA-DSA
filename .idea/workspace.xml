@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="DONE FOR NOW">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion/Example2_factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/Example2_factorial.java" afterDir="false" />
-    </list>
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="LITTLE FIX" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661313027386</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="LITTLE FIX">
+      <created>1661316523501</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661316523501</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +121,7 @@
     <MESSAGE value="GOOD MORNING" />
     <MESSAGE value="RECURSION FACTORIAL" />
     <MESSAGE value="DONE FOR NOW" />
-    <option name="LAST_COMMIT_MESSAGE" value="DONE FOR NOW" />
+    <MESSAGE value="LITTLE FIX" />
+    <option name="LAST_COMMIT_MESSAGE" value="LITTLE FIX" />
   </component>
 </project>
