@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursion/Exercise2_power.java" afterDir="false" />
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="POWER OF A POSITIVE NUMBER">
+      <change afterPath="$PROJECT_DIR$/src/recursion/Exercise3_GCD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deneme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/Exercise1_sumOfDigit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661344686848</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="POWER OF A POSITIVE NUMBER">
+      <created>1661410344196</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661410344197</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +155,7 @@
     <MESSAGE value="LITTLE FIX" />
     <MESSAGE value="LITTLE CHANGE" />
     <MESSAGE value="FIBONACCI" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIBONACCI" />
+    <MESSAGE value="POWER OF A POSITIVE NUMBER" />
+    <option name="LAST_COMMIT_MESSAGE" value="POWER OF A POSITIVE NUMBER" />
   </component>
 </project>
