@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="FIBONACCI">
-      <change afterPath="$PROJECT_DIR$/src/Deneme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Exercise1.java" afterDir="false" />
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/recursion/Exercise2_power.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deneme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/Exercise1_sumOfDigit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661326686002</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="FIBONACCI">
+      <created>1661344686848</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661344686848</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

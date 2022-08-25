@@ -5,7 +5,7 @@ package recursion;
 /*I am going to use recursion on this*/
 
 /*main class*/
-public class Exercise1 {
+public class Exercise1_sumOfDigit {
 
     /*calculation method*/
     static int operate(int n){
