@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="GCD OF TWO NUMBERS">
-      <change afterPath="$PROJECT_DIR$/src/recursion/Exercise4_decimalToBinary.java" afterDir="false" />
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="DECIMAL TO BINARY CONVERSION">
+      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/Reverse_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661414634542</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="DECIMAL TO BINARY CONVERSION">
+      <created>1661415267142</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661415267142</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +171,7 @@
     <MESSAGE value="FIBONACCI" />
     <MESSAGE value="POWER OF A POSITIVE NUMBER" />
     <MESSAGE value="GCD OF TWO NUMBERS" />
-    <option name="LAST_COMMIT_MESSAGE" value="GCD OF TWO NUMBERS" />
+    <MESSAGE value="DECIMAL TO BINARY CONVERSION" />
+    <option name="LAST_COMMIT_MESSAGE" value="DECIMAL TO BINARY CONVERSION" />
   </component>
 </project>
