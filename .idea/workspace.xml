@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="DECIMAL TO BINARY CONVERSION">
-      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/Reverse_string.java" afterDir="false" />
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="WORKING ON DATA STRUCTURES PROBLEMS">
+      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/IsPalindrome_string.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661415267142</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="WORKING ON DATA STRUCTURES PROBLEMS">
+      <created>1661502822276</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661502822276</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +179,7 @@
     <MESSAGE value="POWER OF A POSITIVE NUMBER" />
     <MESSAGE value="GCD OF TWO NUMBERS" />
     <MESSAGE value="DECIMAL TO BINARY CONVERSION" />
-    <option name="LAST_COMMIT_MESSAGE" value="DECIMAL TO BINARY CONVERSION" />
+    <MESSAGE value="WORKING ON DATA STRUCTURES PROBLEMS" />
+    <option name="LAST_COMMIT_MESSAGE" value="WORKING ON DATA STRUCTURES PROBLEMS" />
   </component>
 </project>
