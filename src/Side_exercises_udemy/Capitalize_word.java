@@ -33,6 +33,4 @@ public class Capitalize_word {
         System.out.println(capitalize("i am going to school"));
     }
 
-
-
 }
