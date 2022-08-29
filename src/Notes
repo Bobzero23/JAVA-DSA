@@ -1,0 +1,13 @@
+BIG O NOTATION
+
+TYPES OF BIG O NOTATIONS
+BIG O
+BIG OMEGA
+BIG THETA
+
+RUNTIME COMPLEXITIES
+1.  O(1) / Constant -> For any given input the execution time wont change
+2.  O(N) / Linear -> e.g Looping through an array depends on how many elements are available in the array
+3.  O(LogN) / Algorithmic -> e.g finding a number in a sorted array
+4.  0(N^2)  / Quadratic -> Looping through an array twice or double for loop
+5. 0(2^N)  / Exponential -> e.g Recursion for instance Fibonacci
