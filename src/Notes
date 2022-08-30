@@ -11,3 +11,9 @@ RUNTIME COMPLEXITIES
 3.  O(LogN) / Algorithmic -> e.g finding a number in a sorted array
 4.  0(N^2)  / Quadratic -> Looping through an array twice or double for loop
 5. 0(2^N)  / Exponential -> e.g Recursion for instance Fibonacci
+
+SPACE COMPLEXITY
+
+ADD vs MULTIPLY
+e.g Do this then do that -> addition i.e two for loop in different brackets
+e.g Do this each time you do that -> multiplication i.e nested for loop
