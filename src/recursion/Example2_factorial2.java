@@ -3,7 +3,7 @@ package recursion;
 
 /*demonstration on how to calculate the factorial of a number using recursion */
 
-/*mian class*/
+/*main class*/
 public class Example2_factorial2 {
 
     /*factorial method*/
