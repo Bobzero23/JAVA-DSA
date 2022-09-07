@@ -17,3 +17,14 @@ SPACE COMPLEXITY
 ADD vs MULTIPLY
 e.g Do this then do that -> addition i.e two for loop in different brackets
 e.g Do this each time you do that -> multiplication i.e nested for loop
+
+HOW TO MEASURE BIG O TIME COMPLEXITY
+1. Assignment or if statement -> 0(1)
+2. Once executed for loop -> 0(n)
+3. Nested for loop -> 0(n^2)
+4. A loop containing a parameter which is divide by two each time -> 0(Log(n))
+5. When dealing with multiple statement just add them up
+
+HOW TO MEASURE A RECURSIVE ALGORITHM WITH MULTIPLE CALLS
+e.g Fibonacci -> The answer is simply 2^n
+Tell me why..
