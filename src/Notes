@@ -29,4 +29,11 @@ HOW TO MEASURE A RECURSIVE ALGORITHM WITH MULTIPLE CALLS
 e.g Fibonacci -> The answer is simply 2^n
 Tell me why..
 
+Note: while measuring time complexity be careful, as you know if there is looping an array in a two nested for loop
+      then the time complexity is O(N^2), but this doesn't apply when there is two arrays in the same case.
+      so the answer is gonna O(ab) which a and b are the number of elements in those two arrays
+
+Note: If we are looping just a constant number in a for loop, it doesn't how big the number is the answer is same O(1).
+
+
 
