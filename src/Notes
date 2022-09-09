@@ -35,5 +35,7 @@ Note: while measuring time complexity be careful, as you know if there is loopin
 
 Note: If we are looping just a constant number in a for loop, it doesn't how big the number is the answer is same O(1).
 
-
-
+REVERSING AN ARRAY
+1. There are many techniques to do this but the one I learned is by taking the last element and replacing it with the
+    the first element of the array until you reach the middle of the array so by this you will loop arr.length/2
+Note: you can't do this arr[i] = temp; but do this arr[i] = arr [temp];
