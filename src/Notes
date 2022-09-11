@@ -40,3 +40,4 @@ REVERSING AN ARRAY
 1. There are many techniques to do this but the one I learned is by taking the last element and replacing it with the
     the first element of the array until you reach the middle of the array so by this you will loop arr.length/2
 Note: you can't do this arr[i] = temp; but do this arr[i] = arr [temp];
+

@@ -1,0 +1,33 @@
+                                                    ARRAYS
+1. They store the data of a specific type, you can't store string and integer together.
+2. Elements are located contiguously
+3. Each element has unique index
+4. The size is predefined and can not be changed
+
+TYPES OF ARRAYS
+1. Single Array -> only have one row and multiple columns
+2. Multi dimensional Array -> can have more than one rows and columns
+Note: three dimensional Arrays are rarely used but once you encounter them think like a 3x3 rubik cube, think as there
+      are three two dimensional Arrays and there is a thing called depth so to find a particular index first, you write
+      the name of the array, then the depth, then then row and finally column is gonna be like this arr[0][2][1].
+
+ARRAYS IN MEMORY
+Note: All type of Arrays are located as one row and contiguously.
+
+CREATING AN ARRAY
+1. First we declare -> here the compiler creates a reference for the array in the memory
+2. Instantiation -> here the compiler creates the memory according to the size of the array and also giving value to
+                    each index according to the reference we created + 0
+3. Initialization -> here you assign the values to the array
+
+Note: To display an Array you need to import it is library called Arrays and then use the toString method, check Demo
+Note: Array initialization if you do for each element it takes O(N), if you do all in the one line it takes O(1) time.
+
+
+
+
+
+
+
+
+
