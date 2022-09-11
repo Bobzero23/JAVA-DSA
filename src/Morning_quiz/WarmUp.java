@@ -1,5 +1,7 @@
 package Morning_quiz;
 
+/*The technique here is first to find the bigger number and then act accordingly*/
+
 /*main class*/
 public class WarmUp {
 

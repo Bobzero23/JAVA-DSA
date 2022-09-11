@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="DISPLAYING AN ARRAY">
-      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/ReversingArray.java" afterDir="false" />
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="REVERSING AN ARRAY">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Morning_quiz/WarmUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Morning_quiz/WarmUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Side_exercises_udemy/Array_Callback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/Array_Callback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion/Example1_demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/Example1_demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion/Exercise3_GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/Exercise3_GCD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662707757517</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="REVERSING AN ARRAY">
+      <created>1662708776126</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662708776126</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,6 +307,18 @@
     <MESSAGE value="WARMING UP" />
     <MESSAGE value="METHOD TO PRINT PAIRS OF AN ARRAY" />
     <MESSAGE value="DISPLAYING AN ARRAY" />
-    <option name="LAST_COMMIT_MESSAGE" value="DISPLAYING AN ARRAY" />
+    <MESSAGE value="REVERSING AN ARRAY" />
+    <option name="LAST_COMMIT_MESSAGE" value="REVERSING AN ARRAY" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/Exercise3_GCD.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

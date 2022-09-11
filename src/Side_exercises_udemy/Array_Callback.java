@@ -2,7 +2,6 @@ package Side_exercises_udemy;
 
 /*I COULDN'T FINISH THE CODE BECAUSE I WAS STUCK*/
 
-
 /*Demonstration on how we can a call back of an array using recursion*/
 
 /*main class*/

@@ -1,7 +1,7 @@
 package recursion;
 
 /*Demonstration on how to find the GCD using recursion*/
-/* GCD -> Greatest Common Divisor*/
+/* GCD -> The Greatest Common Divisor*/
 
 /*main class*/
 public class Exercise3_GCD {

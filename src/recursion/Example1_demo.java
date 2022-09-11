@@ -1,6 +1,6 @@
 package recursion;
 
-/*I tried to do this myself but it didn't work*/
+/*I tried to do this myself, but it didn't work*/
 /*Demonstration on how to the recursion method call itself as long as the condition satisfies */
 
 /*main class*/
