@@ -17,13 +17,15 @@ Note: All type of Arrays are located as one row and contiguously.
 CREATING AN ARRAY
 1. First we declare -> here the compiler creates a reference for the array in the memory
 2. Instantiation -> here the compiler creates the memory according to the size of the array and also giving value to
-                    each index according to the reference we created + 0
+                    each index according to the reference we created + 0,
+Note: By default it sets all the elements in array as ZERO. To avoid this use constructor.
 3. Initialization -> here you assign the values to the array
 
 Note: To display an Array you need to import it is library called Arrays and then use the toString method, check Demo
 Note: Array initialization if you do for each element it takes O(N), if you do all in the one line it takes O(1) time.
 
-
+INSERTION IN ARRAY
+ACCESSING IN ARRAY ->We use index to access the elements in the array, it takes O(1)
 
 
 

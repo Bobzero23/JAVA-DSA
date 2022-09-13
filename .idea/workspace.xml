@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="MEHN">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/Notes" afterDir="false" />
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="ARRAY - IMPLEMENTATION">
+      <change afterPath="$PROJECT_DIR$/src/arrays/Insertion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Traversal1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662894309361</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="ARRAY - IMPLEMENTATION">
+      <created>1662898367605</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662898367605</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,7 +328,8 @@
     <MESSAGE value="REVERSING AN ARRAY" />
     <MESSAGE value="REVIEW" />
     <MESSAGE value="MEHN" />
-    <option name="LAST_COMMIT_MESSAGE" value="MEHN" />
+    <MESSAGE value="ARRAY - IMPLEMENTATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="ARRAY - IMPLEMENTATION" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
