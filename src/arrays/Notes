@@ -26,7 +26,8 @@ Note: Array initialization if you do for each element it takes O(N), if you do a
 
 INSERTION IN ARRAY
 ACCESSING IN ARRAY ->We use index to access the elements in the array, it takes O(1)
-
+DELETION IN ARRAY -> Normally deletion is not possible in array but many programmer tend to change a
+                     certain index to a minimum integer value
 
 
 
