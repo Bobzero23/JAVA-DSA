@@ -29,7 +29,16 @@ ACCESSING IN ARRAY ->We use index to access the elements in the array, it takes 
 DELETION IN ARRAY -> Normally deletion is not possible in array but many programmer tend to change a
                      certain index to a minimum integer value
 
+TWO DIMENSIONAL ARRAY
 
+Where to use them
+1. In math like matrix
+2. Games
+
+CREATING TWO DIMENSIONAL ARRAY
+1. DECLARING
+2. INSTANTIATION
+3. INITIALIZATION
 
 
 
