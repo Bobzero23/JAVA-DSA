@@ -6,23 +6,12 @@ package Test;
 public class Attempt {
 
 
-    static int powerOf2(int n){
-        if (n < 1){
-            return 0;
-        } else if (n == 1) {
-            System.out.println(1);
-            return 1;
-        }else {
-            var prev = powerOf2(n / 2);
-            var curr = prev * 2;
-            System.out.println(curr);
-            return curr;
-        }
-    }
-
     /*main method*/
     public static void main(String[] args) {
 
-        powerOf2(5);
+        String str = "Bobzero";
+        String front = String.valueOf(str.charAt(0));
+        String back = str.substring(3,str.length());
+        System.out.println(front);
     }
 }
