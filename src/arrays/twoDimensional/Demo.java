@@ -1,11 +1,11 @@
-package arrays;
+package arrays.twoDimensional;
 
 /*Demonstration on Two Dimensional Arrays*/
 
 import java.util.Arrays;
 
 /*main class*/
-public class TwoD_Demo {
+public class Demo {
 
     /*main method*/
     public static void main(String[] args) {

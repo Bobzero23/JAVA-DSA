@@ -1,4 +1,4 @@
-package arrays;
+package arrays.oneDimensional;
 
 /*main class*/
 public class Searching1 {

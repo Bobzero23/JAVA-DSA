@@ -1,4 +1,4 @@
-package arrays;
+package arrays.oneDimensional;
 
 /*Demonstration on how to traverse an Array*/
 

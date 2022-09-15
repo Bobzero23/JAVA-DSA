@@ -1,9 +1,9 @@
-package arrays;
+package arrays.oneDimensional;
 
 /*imports*/
 import java.util.Arrays;
 
-public class OneD_Demo {
+public class Demo {
     public static void main(String[] args) {
 
         int[] arr; // declaration
