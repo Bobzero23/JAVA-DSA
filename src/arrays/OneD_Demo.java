@@ -3,7 +3,7 @@ package arrays;
 /*imports*/
 import java.util.Arrays;
 
-public class Demo {
+public class OneD_Demo {
     public static void main(String[] args) {
 
         int[] arr; // declaration

@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="ARRAY - IMPLEMENTATION - DELETION">
+      <change afterPath="$PROJECT_DIR$/src/arrays/TwoD_Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/OneD_Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arrays/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

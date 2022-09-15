@@ -40,6 +40,8 @@ CREATING TWO DIMENSIONAL ARRAY
 2. INSTANTIATION
 3. INITIALIZATION
 
-
-
+Note: To display two dimensional Array we use deepToString method
+Note: Initialization of two dimensional Array it takes O(mn), where m and n is rows and columns but
+      this is only when you do initialization one by one and not like all together.. also same in
+      space complexity
 
