@@ -35,14 +35,29 @@ public class Insertion1 {
         }
     }
 
+    /*method to access a two-dimensional Array*/
+    public void accessing1(int row, int col){
+        System.out.println("\nAccessing row# " + row + " and column# " + col);
+        try {
+            System.out.println("The index accessed is: " + arr[row][col]);
+        }catch (Exception e){
+            System.out.println(e);
+        }
+    }
+
     /*main*/
     public static void main(String[] args) {
+
         /*initializing the object*/
-        Insertion1 object = new Insertion1(3,3);
+        Insertion1 object = new Insertion1(4,4);
 
         /*calling the method*/
         object.insert1(0, 0, 1);
-        object.insert1(4, 0, 1);
+        object.insert1(2, 0, 46);
+        object.insert1(2, 2, 23);
+
+        /*calling a method to access an index*/
+        object.accessing1(2, 2);
     }
 
 

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="2D ARRAYS - INSERTION">
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="SUBSTRING CHECKING">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/Attempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Attempt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/twoDimensional/Insertion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/twoDimensional/Insertion1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663247285860</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="SUBSTRING CHECKING">
+      <created>1663249523030</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1663249523030</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +346,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LITTLE FIX" />
     <MESSAGE value="LITTLE CHANGE" />
     <MESSAGE value="FIBONACCI" />
     <MESSAGE value="POWER OF A POSITIVE NUMBER" />
@@ -363,7 +370,8 @@
     <MESSAGE value="ARRAY - IMPLEMENTATION - DELETION" />
     <MESSAGE value="2D ARRAYS DEMONSTRATION" />
     <MESSAGE value="2D ARRAYS - INSERTION" />
-    <option name="LAST_COMMIT_MESSAGE" value="2D ARRAYS - INSERTION" />
+    <MESSAGE value="SUBSTRING CHECKING" />
+    <option name="LAST_COMMIT_MESSAGE" value="SUBSTRING CHECKING" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
