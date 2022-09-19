@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="SUBSTRING CHECKING">
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="TWO DIMENSIONAL ARRAY -  ACCESSING INDEX">
+      <change afterPath="$PROJECT_DIR$/src/arrays/twoDimensional/Accessing1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Attempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Attempt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/twoDimensional/Insertion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/twoDimensional/Insertion1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663249523030</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="TWO DIMENSIONAL ARRAY -  ACCESSING INDEX">
+      <created>1663570294078</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1663570294078</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,7 +353,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LITTLE CHANGE" />
     <MESSAGE value="FIBONACCI" />
     <MESSAGE value="POWER OF A POSITIVE NUMBER" />
     <MESSAGE value="GCD OF TWO NUMBERS" />
@@ -371,7 +377,8 @@
     <MESSAGE value="2D ARRAYS DEMONSTRATION" />
     <MESSAGE value="2D ARRAYS - INSERTION" />
     <MESSAGE value="SUBSTRING CHECKING" />
-    <option name="LAST_COMMIT_MESSAGE" value="SUBSTRING CHECKING" />
+    <MESSAGE value="TWO DIMENSIONAL ARRAY -  ACCESSING INDEX" />
+    <option name="LAST_COMMIT_MESSAGE" value="TWO DIMENSIONAL ARRAY -  ACCESSING INDEX" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
