@@ -42,15 +42,29 @@ public class Searching {
 
     /*method for searching*/
     public void  searching1(int value){
-
+        for (int row = 0; row < arr.length; row++){
+            for (int col = 0; col < arr[0].length; col++){
+                if (arr[row][col] == value){
+                    System.out.println("The number you are searching is at index: " + row + ". kat, oda: "+ col);
+                }
+            }
+        }
     }
 
     /*main method*/
     public static void main(String[] args) {
 
         /*creating the object of the class*/
-        Searching object = new Searching(3, 3);
+        Searching object = new Searching(100, 70);
 
+        /*inserting elements using the object*/
+        object.inserting1(0, 0, 1);
+        object.inserting1(0,1,2);
+        object.inserting1(0,2, 3);
+        object.inserting1(31,69,1);
+
+        /*searching for element*/
+        object.searching1(1);
     }
 
 }
