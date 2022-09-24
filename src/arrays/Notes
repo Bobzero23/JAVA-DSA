@@ -45,3 +45,6 @@ Note: Initialization of two dimensional Array it takes O(mn), where m and n is r
       this is only when you do initialization one by one and not like all together.. also same in
       space complexity
 Note: Saying that arr[0].length will return the number of columns in the Array
+
+NOTE: In this array series every single time I was just setting all the elements to Integer minimum value so in case of
+      deletion I take the number to delete and set it back to Integer minimum value
