@@ -48,3 +48,29 @@ Note: Saying that arr[0].length will return the number of columns in the Array
 
 NOTE: In this array series every single time I was just setting all the elements to Integer minimum value so in case of
       deletion I take the number to delete and set it back to Integer minimum value
+
+
+                                            WHEN TO USE ARRAYS
+1. When you want to store many element of the same type
+2. When a user wants to access a random elements
+
+                                             WHEN TO AVOID ARRAYS
+1. Be careful with the data type
+2. Be careful with a memory (even if you declare the size of array and if you don't use that space the array still takes
+                             that space..)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

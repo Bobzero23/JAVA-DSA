@@ -1,0 +1,4 @@
+1. Find number of days above the average temperature
+   * first find the average temperature
+   * then find the number of the days that surpass the average temperature
+2. Ask how many days temperature are we going to measure
