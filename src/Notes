@@ -41,3 +41,4 @@ REVERSING AN ARRAY
     the first element of the array until you reach the middle of the array so by this you will loop arr.length/2
 Note: you can't do this arr[i] = temp; but do this arr[i] = arr [temp];
 
+Note: IS BETTER TO ASK QUESTION TO GET THE BETTER UNDERSTANDING OF THE QUESTION
