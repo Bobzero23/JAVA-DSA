@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="FINDING THE MAX PRODUCT OF TWO PAIRS OF INTEGER">
-      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/IsUnique.java" afterDir="false" />
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="FINDING IF THE ARRAY IS UNIQUE OR DUPLICATED">
+      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/Permutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661254321769</updated>
-    </task>
-    <task id="LOCAL-00004" summary="GOOD MORNING">
-      <created>1661309097262</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1661309097262</updated>
     </task>
     <task id="LOCAL-00005" summary="RECURSION FACTORIAL">
       <created>1661312774240</created>
@@ -393,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664357472261</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="FINDING IF THE ARRAY IS UNIQUE OR DUPLICATED">
+      <created>1664387291812</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1664387291812</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HOW TO MEASURE" />
     <MESSAGE value="WARMING UP" />
     <MESSAGE value="METHOD TO PRINT PAIRS OF AN ARRAY" />
     <MESSAGE value="DISPLAYING AN ARRAY" />
@@ -433,7 +432,8 @@
     <MESSAGE value="FINDING THE MISSING NUMBER IN THE ARRAY" />
     <MESSAGE value="FINDING TWO SUM PAIRS FOR THE TARGET" />
     <MESSAGE value="FINDING THE MAX PRODUCT OF TWO PAIRS OF INTEGER" />
-    <option name="LAST_COMMIT_MESSAGE" value="FINDING THE MAX PRODUCT OF TWO PAIRS OF INTEGER" />
+    <MESSAGE value="FINDING IF THE ARRAY IS UNIQUE OR DUPLICATED" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINDING IF THE ARRAY IS UNIQUE OR DUPLICATED" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
