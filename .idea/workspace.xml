@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="FINDING IF THE ARRAYS ARE PERMUTATION OF EACH OTHER OR NOT, BUT DIDN'T WORK">
-      <change beforePath="$PROJECT_DIR$/src/Side_exercises_udemy/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/ReversingMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Attempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Attempt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
