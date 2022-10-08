@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="FINDING IF THE ARRAYS ARE PERMUTATION OF EACH OTHER OR NOT, BUT DIDN'T WORK">
-      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/ReversingMatrix.java" afterDir="false" />
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="REVIEWING STRINGS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Attempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Attempt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Side_exercises_udemy/ReversingMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/ReversingMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661254321769</updated>
-    </task>
-    <task id="LOCAL-00006" summary="DONE FOR NOW">
-      <created>1661312978439</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1661312978439</updated>
     </task>
     <task id="LOCAL-00007" summary="DONE FOR NOW">
       <created>1661313027386</created>
@@ -394,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664433862047</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="REVIEWING STRINGS">
+      <created>1664735714103</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1664735714104</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="METHOD TO PRINT PAIRS OF AN ARRAY" />
     <MESSAGE value="DISPLAYING AN ARRAY" />
     <MESSAGE value="REVERSING AN ARRAY" />
     <MESSAGE value="REVIEW" />
@@ -434,7 +432,8 @@
     <MESSAGE value="FINDING THE MAX PRODUCT OF TWO PAIRS OF INTEGER" />
     <MESSAGE value="FINDING IF THE ARRAY IS UNIQUE OR DUPLICATED" />
     <MESSAGE value="FINDING IF THE ARRAYS ARE PERMUTATION OF EACH OTHER OR NOT, BUT DIDN'T WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="FINDING IF THE ARRAYS ARE PERMUTATION OF EACH OTHER OR NOT, BUT DIDN'T WORK" />
+    <MESSAGE value="REVIEWING STRINGS" />
+    <option name="LAST_COMMIT_MESSAGE" value="REVIEWING STRINGS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
