@@ -3,22 +3,19 @@ package Test;
 /*main class*/
 public class Attempt {
 
-    /*first method*/
-    public void method1(String str1){
-        System.out.println(str1.indexOf("x"));
-    }
-
     boolean doubleX(String str) {
-        int i = str.indexOf("x");
-        if (i == -1) return false; // no "x" at all
+        /*finding the index of the first "x" */
+        int firstX = str.indexOf("x");
 
-        // Is char at i+1 also an "x"?
-        if (i+1 >= str.length()) return false; // check i+1 in bounds?
-        return str.substring(i+1, i+2).equals("x");
+        /*checking if there is no "x" at all*/
+        if (firstX == -1) return false;
 
-        // Another approach -- .startsWith() simplifies the logic
-        // String x = str.substring(i);
-        // return x.startsWith("xx");
+        /*checking if x is the last letter of the string*/
+        if (firstX + 1 >= str.length()) return false;
+
+        /*checking if there is another "x" */
+        return str.substring(firstX + 1, firstX + 2).equals("x");
+
     }
 
     /*main method*/
@@ -28,13 +25,12 @@ public class Attempt {
         Attempt object = new Attempt();
 
         /*instantiating the string*/
-        String str = "taxing";
+        String str = "taxxing";
 
-        /*calling method 1*/
-        object.method1(str);
+        /*assigning the result to variable*/
+        boolean result = object.doubleX(str);
 
-        /*calling method 2*/
-        object.doubleX(str);
-
+        /*displaying the result*/
+        System.out.println(result);
     }
 }

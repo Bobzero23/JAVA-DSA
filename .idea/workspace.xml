@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="REVERSING A MATRIX">
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="A LITTLE WARM UP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/Attempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Attempt.java" afterDir="false" />
     </list>
@@ -49,13 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661254321769</updated>
-    </task>
-    <task id="LOCAL-00008" summary="LITTLE FIX">
-      <created>1661316523501</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1661316523501</updated>
     </task>
     <task id="LOCAL-00009" summary="LITTLE CHANGE">
       <created>1661321536986</created>
@@ -393,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665238491323</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="A LITTLE WARM UP">
+      <created>1665560456230</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1665560456230</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="REVERSING AN ARRAY" />
     <MESSAGE value="REVIEW" />
     <MESSAGE value="MEHN" />
     <MESSAGE value="ARRAY - IMPLEMENTATION" />
@@ -433,7 +432,8 @@
     <MESSAGE value="FINDING IF THE ARRAYS ARE PERMUTATION OF EACH OTHER OR NOT, BUT DIDN'T WORK" />
     <MESSAGE value="REVIEWING STRINGS" />
     <MESSAGE value="REVERSING A MATRIX" />
-    <option name="LAST_COMMIT_MESSAGE" value="REVERSING A MATRIX" />
+    <MESSAGE value="A LITTLE WARM UP" />
+    <option name="LAST_COMMIT_MESSAGE" value="A LITTLE WARM UP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,11 +447,6 @@
           <url>file://$PROJECT_DIR$/src/Side_exercises_udemy/ReversingMatrix.java</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/Attempt.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
