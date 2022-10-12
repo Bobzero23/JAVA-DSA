@@ -1,21 +1,21 @@
 package Test;
 
+/*Demonstration on how to solve the Given a string, return a new string made of every other char starting with the first*/
+
 /*main class*/
 public class Attempt {
 
-    boolean doubleX(String str) {
-        /*finding the index of the first "x" */
-        int firstX = str.indexOf("x");
 
-        /*checking if there is no "x" at all*/
-        if (firstX == -1) return false;
+    /*method for solving the Question*/
+    public String solver(String str){
+        /*A String to restore the new string*/
+        String store = "";
 
-        /*checking if x is the last letter of the string*/
-        if (firstX + 1 >= str.length()) return false;
-
-        /*checking if there is another "x" */
-        return str.substring(firstX + 1, firstX + 2).equals("x");
-
+        /*Looping through the string*/
+        for (int i = 0; i < str.length(); i = i + 2){
+            store += String.valueOf(str.charAt(i));
+        }
+        return store;
     }
 
     /*main method*/
@@ -25,10 +25,10 @@ public class Attempt {
         Attempt object = new Attempt();
 
         /*instantiating the string*/
-        String str = "taxxing";
+        String str = "Bobzero";
 
         /*assigning the result to variable*/
-        boolean result = object.doubleX(str);
+        String result = object.solver(str);
 
         /*displaying the result*/
         System.out.println(result);

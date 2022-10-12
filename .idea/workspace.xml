@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="A LITTLE WARM UP">
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="A LITTLE WARM UP - DONE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/Attempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Attempt.java" afterDir="false" />
     </list>
@@ -49,13 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661254321769</updated>
-    </task>
-    <task id="LOCAL-00009" summary="LITTLE CHANGE">
-      <created>1661321536986</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1661321536986</updated>
     </task>
     <task id="LOCAL-00010" summary="FIBONACCI">
       <created>1661326686002</created>
@@ -393,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665560456230</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="A LITTLE WARM UP - DONE">
+      <created>1665561258455</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1665561258455</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="REVIEW" />
     <MESSAGE value="MEHN" />
     <MESSAGE value="ARRAY - IMPLEMENTATION" />
     <MESSAGE value="ARRAY - IMPLEMENTATION - TRAVERSAL AND INSERTION" />
@@ -433,7 +432,8 @@
     <MESSAGE value="REVIEWING STRINGS" />
     <MESSAGE value="REVERSING A MATRIX" />
     <MESSAGE value="A LITTLE WARM UP" />
-    <option name="LAST_COMMIT_MESSAGE" value="A LITTLE WARM UP" />
+    <MESSAGE value="A LITTLE WARM UP - DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="A LITTLE WARM UP - DONE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
