@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="REMOVING THE FIRST AND THE LAST ELEMENT OF AN ARRAY">
-      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/Diagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/Removing_elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Side_exercises_udemy/Diagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/SumOfDiagonal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661254321769</updated>
-    </task>
-    <task id="LOCAL-00012" summary="POWER OF A POSITIVE NUMBER">
-      <created>1661410344196</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1661410344197</updated>
     </task>
     <task id="LOCAL-00013" summary="GCD OF TWO NUMBERS">
       <created>1661414634542</created>
@@ -393,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665604432414</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="REMOVING THE FIRST AND THE LAST ELEMENT OF AN ARRAY">
+      <created>1665643483754</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1665643483754</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
