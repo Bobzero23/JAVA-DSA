@@ -6,17 +6,26 @@ package Test;
 public class Attempt {
 
 
-    /*method for solving the Question*/
-    public String solver(String str){
-        /*A String to restore the new string*/
-        String store = "";
+    public int last2(String str) {
+        // Screen out too-short string case.
+        if (str.length() < 2) return 0;
 
-        /*Looping through the string*/
-        for (int i = 0; i < str.length(); i = i + 2){
-            store += String.valueOf(str.charAt(i));
+        String end = str.substring(str.length()-2);
+        // Note: substring() with 1 value goes through the end of the string
+        int count = 0;
+
+        // Check each substring length 2 starting at i
+        for (int i=0; i<str.length()-2; i++) {
+            String sub = str.substring(i, i+2);
+            if (sub.equals(end)) {  // Use .equals() with strings
+                count++;
+            }
         }
-        return store;
+
+        return count;
     }
+
+
 
     /*main method*/
     public static void main(String[] args) {
@@ -25,10 +34,10 @@ public class Attempt {
         Attempt object = new Attempt();
 
         /*instantiating the string*/
-        String str = "Bobzero";
+        String str = "hixxh";
 
         /*assigning the result to variable*/
-        String result = object.solver(str);
+        int result = object.last2(str);
 
         /*displaying the result*/
         System.out.println(result);

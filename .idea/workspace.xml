@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="REMOVING THE FIRST AND THE LAST ELEMENT OF AN ARRAY">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Side_exercises_udemy/Diagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/SumOfDiagonal.java" afterDir="false" />
+    <list default="true" id="62041416-730a-46e7-83ea-498fffc3df75" name="Changes" comment="FINDING THE SUM OF THE DIAGONAL OF THE MATRIX">
+      <change afterPath="$PROJECT_DIR$/src/Side_exercises_udemy/FirstSecondScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Attempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Attempt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661254321769</updated>
-    </task>
-    <task id="LOCAL-00013" summary="GCD OF TWO NUMBERS">
-      <created>1661414634542</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1661414634542</updated>
     </task>
     <task id="LOCAL-00014" summary="DECIMAL TO BINARY CONVERSION">
       <created>1661415267142</created>
@@ -393,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665643483754</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="FINDING THE SUM OF THE DIAGONAL OF THE MATRIX">
+      <created>1665645399170</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1665645399170</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ARRAY - IMPLEMENTATION" />
     <MESSAGE value="ARRAY - IMPLEMENTATION - TRAVERSAL AND INSERTION" />
     <MESSAGE value="ARRAY - IMPLEMENTATION - SEARCHING" />
     <MESSAGE value="ARRAY - IMPLEMENTATION - DELETION" />
@@ -433,7 +432,8 @@
     <MESSAGE value="A LITTLE WARM UP" />
     <MESSAGE value="A LITTLE WARM UP - DONE" />
     <MESSAGE value="REMOVING THE FIRST AND THE LAST ELEMENT OF AN ARRAY" />
-    <option name="LAST_COMMIT_MESSAGE" value="REMOVING THE FIRST AND THE LAST ELEMENT OF AN ARRAY" />
+    <MESSAGE value="FINDING THE SUM OF THE DIAGONAL OF THE MATRIX" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINDING THE SUM OF THE DIAGONAL OF THE MATRIX" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,6 +447,11 @@
           <url>file://$PROJECT_DIR$/src/Side_exercises_udemy/ReversingMatrix.java</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Attempt.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
