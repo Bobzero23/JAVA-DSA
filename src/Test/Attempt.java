@@ -14,6 +14,5 @@ public class Attempt {
         /*creating the object of the class*/
         Attempt object = new Attempt();
 
-
     }
 }
