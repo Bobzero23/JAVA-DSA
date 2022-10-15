@@ -1,0 +1,57 @@
+Recursion is a way of solving of solving problems by having the method calling itself.
+* It performs a same operation with different inputs.
+* At the end the base condition has to stop otherwise infinite loop will occur
+  so we have to provide the base condition.
+* It is stored in the Stack memory.
+
+Why we need recursion?
+* Recursive thinking is very important to a Programmer.
+* Trees and Graphs DSA
+* Interviews
+
+When to choose recursion?
+* If you can divide a problem to a smaller problem
+* Design an algorithm to compute n-th
+* Write a code to list the n
+* Implement a method to compute all
+* Tree traversal
+* Practice
+
+When to avoid recursion
+* When time and space matters
+
+Recursion vs Iteration
+* Iteration performs better in terms of space and time
+
+Steps on writing a good Recursive
+* Recursive case -> The method and algorithm which is going to be repeated
+* Base case -> The condition to avoid infinite loop
+* Unintentional case -> is when someone write run your code with negative number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

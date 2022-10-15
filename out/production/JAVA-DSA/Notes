@@ -1,0 +1,44 @@
+BIG O NOTATION
+
+TYPES OF BIG O NOTATIONS
+BIG O -> used to describe the worst case
+BIG OMEGA -> used to describe the best case
+BIG THETA -> used to describe the range which is called narrow and the certain which is called exact
+
+RUNTIME COMPLEXITIES
+1.  O(1) / Constant -> For any given input the execution time wont change
+2.  O(N) / Linear -> e.g Looping through an array depends on how many elements are available in the array
+3.  O(LogN) / Algorithmic -> e.g finding a number in a sorted array
+4.  0(N^2)  / Quadratic -> Looping through an array twice or double for loop
+5. 0(2^N)  / Exponential -> e.g Recursion for instance Fibonacci
+
+SPACE COMPLEXITY
+Total amount of memory used by a an algorithm
+
+ADD vs MULTIPLY
+e.g Do this then do that -> addition i.e two for loop in different brackets
+e.g Do this each time you do that -> multiplication i.e nested for loop
+
+HOW TO MEASURE BIG O TIME COMPLEXITY
+1. Assignment or if statement -> 0(1)
+2. Once executed for loop -> 0(n)
+3. Nested for loop -> 0(n^2)
+4. A loop containing a parameter which is divide by two each time -> 0(Log(n))
+5. When dealing with multiple statement just add them up
+
+HOW TO MEASURE A RECURSIVE ALGORITHM WITH MULTIPLE CALLS
+e.g Fibonacci -> The answer is simply 2^n
+Tell me why..
+
+Note: while measuring time complexity be careful, as you know if there is looping an array in a two nested for loop
+      then the time complexity is O(N^2), but this doesn't apply when there is two arrays in the same case.
+      so the answer is gonna be O(ab) which a and b are the number of elements in those two arrays
+
+Note: If we are looping just a constant number in a for loop, it doesn't matter how big the number is the answer is same O(1).
+
+REVERSING AN ARRAY
+1. There are many techniques to do this but the one I learned is by taking the last element and replacing it with the
+    the first element of the array until you reach the middle of the array so by this you will loop arr.length/2
+Note: you can't do this arr[i] = temp; but do this arr[i] = arr [temp];
+
+Note: IS BETTER TO ASK QUESTION TO GET THE BETTER UNDERSTANDING OF THE QUESTION
