@@ -1,23 +1,26 @@
 package Test;
 
-/*Demonstration on how to solve the Given array, return true if sequence of 1,2,3 appears somewhere in the array.
+/*Demonstration on how to solve the Given String, Count the number of "xx" in the given string.
+We'll say that overlapping is allowed, so "xxx" contains 2 "xx" */
 
 /*main class*/
 public class Attempt {
 
     /*method to solve the question*/
-    public boolean solver(int[] arr){
-        if (arr.length < 3) return false;
-        for (int i = 0; i < arr.length - 2; i++){
-            if (arr[i] == 1){
-                if (arr[i + 1] == 2){
-                    if (arr[i + 2] == 3){
-                        return true;
-                    }
-                }
+    public int solver(String str){
+        /*initializing variables*/
+        int count = 0;
+
+        /*checking the String length*/
+        if (str.length() < 2) return 0;
+
+        /*looping through the characters of String*/
+        for (int i = 0; i < str.length() - 1; i++){
+            if (str.charAt(i) == 'x' && str.charAt(i + 1) == 'x'){
+                count = count + 1;
             }
         }
-        return false;
+        return count;
     }
 
     /*main method*/
@@ -25,14 +28,13 @@ public class Attempt {
         /*creating object of the class*/
         Attempt object = new Attempt();
 
-        /*creating the array*/
-        int[] arr = {1, 1, 2, 4, 1};
+        /*initializing the string*/
+        String str = "Hexxo thxxe";
 
         /*assigning the method to a variable*/
-        boolean result = object.solver(arr);
+        int result = object.solver(str);
 
         /*displaying the result*/
         System.out.println(result);
-
     }
 }
