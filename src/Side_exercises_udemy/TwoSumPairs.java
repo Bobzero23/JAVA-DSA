@@ -28,10 +28,10 @@ public class TwoSumPairs {
         TwoSumPairs object = new TwoSumPairs();
 
         /*instantiation the array*/
-        int[] arr = {2, 22, 12, 32, 15, 8};
+        int[] arr = {3,2,4};
 
         /*calling the function and assigning it to the array*/
-        int[] result = object.twoSumPairs(arr, 64);
+        int[] result = object.twoSumPairs(arr, 6);
 
         /*displaying the result*/
         System.out.println("The answer is: " + Arrays.toString(result));
