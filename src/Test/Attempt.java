@@ -4,24 +4,23 @@ package Test;
 /*Pangram: is a sentence that all English Alphabets appears at least once*/
 /*Find letters one by one approach*/
 
+import java.util.HashSet;
+import java.util.Set;
+
 /*main class*/
 public class Attempt {
 
     /*method to solve the question*/
     public boolean checkIfPangram(String sentence) {
-        // We iterate over 'sentence' for 26 times, one for each letter 'currChar'.
-        for (int i = 0; i < 26; ++i) {
+        // Empty set 'seen'.
+        Set<Character> seen = new HashSet<>();
 
-            /**/
-            char currChar = (char)('a' + i);
+        // Iterate over 'sentence' add every letter to 'seen'.
+        for (char currChar : sentence.toCharArray())
+            seen.add(currChar);
 
-            // If 'sentence' doesn't contain currChar, it is not a pangram.
-            if (sentence.indexOf(currChar) == -1)
-                return false;
-        }
-
-        // If we manage to find all 26 letters, it is a Pangram.
-        return true;
+        // If the size of 'seen' is 26, then 'sentence' is a pangram.
+        return seen.size() == 26;
     }
 
 
