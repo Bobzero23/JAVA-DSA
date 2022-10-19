@@ -1,5 +1,7 @@
 package Test;
 
+/**Demonstration on how to find if given integer is palindrome or not*/
+
 /*main class*/
 public class Attempt1 {
 
