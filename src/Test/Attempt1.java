@@ -1,29 +1,25 @@
 package Test;
 
+/*imports*/
 import java.util.Arrays;
 
-/**Demonstration on how to create the an array from permutation*/
+/**Demonstration on how to find the longest common prefix*/
 
 /*main class*/
 public class Attempt1 {
 
     /*method*/
-    public int[] buildArray(int[] nums){
-
-        // Creating array with same length as the given array
-        int[] ans = new int[nums.length];
-
-        // Looping through the given array
-        // Apply permutation and assign the values to new array
-        for (int i = 0; i < nums.length; i++){
-            ans[i] = nums[nums[i]];
+    public String longestCommonPrefix(String[] strs){
+        String LCP = "";
+        for (int i = 0; i < strs.length; i++){
+            for (int j = i + 1; j < strs.length; j++){
+                if (strs[i].substring(i).equals(strs[j].substring(j))){
+                    LCP += strs[i].substring(i);
+                }
+            }
         }
-
-        // Returning the new array
-        return ans;
+        return "";
     }
-
-
 
     /*main method*/
     public static void main(String[] args) {
@@ -31,14 +27,16 @@ public class Attempt1 {
         // creating object of the class
         Attempt1 object = new Attempt1();
 
-        // Creating an array named nums
-        int[] nums = {0,2,1,5,3,4};
+        // Creating a string array
+        String[] strs = {"flower","flow","flight"};
 
         // Assigning the method to a variable
-        int[] result = object.buildArray(nums);
+        String result = object.longestCommonPrefix(strs);
 
         // Displaying the result
-        System.out.println(Arrays.toString(result));
+        System.out.println(result);
+
+
 
     }
 }
