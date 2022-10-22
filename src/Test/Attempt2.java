@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 /*main class*/
-public class Attempt {
+public class Attempt2 {
     int count = 1;
     /*method to solve the question*/
 
@@ -40,6 +40,6 @@ public class Attempt {
         }
         in.close();
     }
-    
+
 
 }
