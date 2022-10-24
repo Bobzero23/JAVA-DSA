@@ -1,19 +1,12 @@
 package Test;
 
-/*Checking if the sentence is Pangram or not*/
-/*Pangram: is a sentence that all English Alphabets appears at least once*/
-/*Find letters one by one approach*/
-
-import java.util.HashSet;
+/*imports*/
 import java.util.Scanner;
-import java.util.Set;
+
 
 /*main class*/
 public class Attempt2 {
     int count = 1;
-    /*method to solve the question*/
-
-
 
     /*main method*/
     public static void main(String[] args) {
@@ -24,16 +17,11 @@ public class Attempt2 {
             int a = in.nextInt();
             int b = in.nextInt();
             int n = in.nextInt();
-            int count = 1;
-            int result = 0;
-            for(int j = 1; j <= n; j++){
 
-
-
-                result += (a + count * b);
-                System.out.print(result + " ");
-                count = count * t;
-
+            // inner for loop
+            for (int j = 0; j < n; j++){
+                a +=  Math.pow(2,j) * b;
+                System.out.print(a + " ");
             }
             System.out.println();
 
@@ -43,3 +31,5 @@ public class Attempt2 {
 
 
 }
+// input 2  0,2,10  5,3,5  // output   2 6 14 30 62 126 254 510 1022 2046   8 14 26 50 98
+// input 3  3,3,3  0,0,5  6,6,10  // output 6 12 24   0 0 0 0 0    12 24 48 96 192 384 768 1536 3072 6144
