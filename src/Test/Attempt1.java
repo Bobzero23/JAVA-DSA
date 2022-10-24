@@ -2,24 +2,36 @@ package Test;
 
 /*imports*/
 import java.util.Arrays;
+import java.util.Stack;
 
-/**Demonstration on how to find the longest common prefix*/
+/**Demonstration on how to solve the valid parentheses*/
 
 /*main class*/
 public class Attempt1 {
 
     /*method*/
-    public String longestCommonPrefix(String[] strs){
-        String LCP = "";
-        for (int i = 0; i < strs.length; i++){
-            for (int j = i + 1; j < strs.length; j++){
-                if (strs[i].substring(i).equals(strs[j].substring(j))){
-                    LCP += strs[i].substring(i);
-                }
-            }
+    public boolean isValid(String s){
+        // String length must be even
+        if (s.length() % 2 != 0 ) return false;
+
+        // Creating a stack
+        Stack<Character> stack = new Stack<>();
+
+        // Looping through string
+        for (char c : s.toCharArray()){
+            // each time we encounter an opening bracket we push the corresponding closing bracket to the stack
+            if (c == '('){
+                stack.push(')');
+            }else if (c == '['){
+                stack.push(']');
+            }else if (c == '{'){
+                stack.push('}');
+            }else if(stack.empty() || stack.pop() != c) return false;
         }
-        return "";
+        // Returning true if the stack is empty
+        return stack.isEmpty();
     }
+
 
     /*main method*/
     public static void main(String[] args) {
@@ -28,14 +40,13 @@ public class Attempt1 {
         Attempt1 object = new Attempt1();
 
         // Creating a string array
-        String[] strs = {"flower","flow","flight"};
+        String s = "()";
 
         // Assigning the method to a variable
-        String result = object.longestCommonPrefix(strs);
+        boolean result = object.isValid(s);
 
         // Displaying the result
         System.out.println(result);
-
 
 
     }
