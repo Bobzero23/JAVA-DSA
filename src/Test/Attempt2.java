@@ -8,10 +8,13 @@ public class Attempt2 {
 
     /*solver method*/
     public int[] runningSum(int[] nums){
-        for (int i = 1; i < nums.length; i++){
-            nums[i] += nums[i - 1];
+        int[] result = new int[nums.length];
+        int count = 0;
+        for (int i = 0; i < nums.length; i++){
+           count = count + nums[i];
+           result[i] = count;
         }
-        return nums;
+        return result;
     }
 
 
