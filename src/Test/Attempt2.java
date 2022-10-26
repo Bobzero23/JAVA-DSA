@@ -1,19 +1,19 @@
 package Test;
 
 
+import java.util.Arrays;
+
 /*main class*/
 public class Attempt2 {
 
     /*solver method*/
-    public int removeDuplicates(int[] nums) {
-        int pointer = 1;
-        for (int i = 0; i < nums.length - 1; i++){
-            if (nums[i] != nums[i+1]){
-                nums[pointer++] = nums[i+1];
-            }
+    public int[] runningSum(int[] nums){
+        for (int i = 1; i < nums.length; i++){
+            nums[i] += nums[i - 1];
         }
-        return pointer;
+        return nums;
     }
+
 
     /*main method*/
     public static void main(String[] args) {
@@ -21,13 +21,13 @@ public class Attempt2 {
         Attempt2 object = new Attempt2();
 
         //creating an array
-        int[] nums = {1,1,1,2,2,3,4,5,5,6};
+        int[] nums = {1,1,1,1,1,};
 
         //assigning the method to variable
-        int result = object.removeDuplicates(nums);
+        int[] resultPrinter = object.runningSum(nums);
 
         //displaying the result
-        System.out.println(result);
+        System.out.println(Arrays.toString(resultPrinter));
 
     }
 }
