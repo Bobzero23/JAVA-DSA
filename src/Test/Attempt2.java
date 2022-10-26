@@ -7,14 +7,19 @@ import java.util.Arrays;
 public class Attempt2 {
 
     /*solver method*/
-    public int[] runningSum(int[] nums){
-        int[] result = new int[nums.length];
-        int count = 0;
+    public int runningSum(int[] nums){
+        int sum1 = 0;
+        int sum2 = 0;
         for (int i = 0; i < nums.length; i++){
-           count = count + nums[i];
-           result[i] = count;
+            sum1 += nums[i];
         }
-        return result;
+        for (int j = 0; j < nums.length; j++){
+            sum2 += nums[j];
+            if (sum2 == sum1 / 2){
+                return j;
+            }
+        }
+        return -1;
     }
 
 
@@ -24,13 +29,13 @@ public class Attempt2 {
         Attempt2 object = new Attempt2();
 
         //creating an array
-        int[] nums = {1,1,1,1,1,};
+        int[] nums = {1,7,3,6,5,6};
 
         //assigning the method to variable
-        int[] resultPrinter = object.runningSum(nums);
+        int resultPrinter = object.runningSum(nums);
 
         //displaying the result
-        System.out.println(Arrays.toString(resultPrinter));
+        System.out.println(resultPrinter);
 
     }
 }
