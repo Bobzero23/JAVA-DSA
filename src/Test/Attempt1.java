@@ -11,26 +11,24 @@ public class Attempt1 {
 
     /*solver method*/
     public int pivotIndex(int[] nums) {
-        //if there is no index return 0
-        if (nums.length == 0) return  0;
+        //first getting the right sum
+        int right_sum = 0;
 
-        //getting the total sum of elements in the array
-        int total_sum = 0;
+        //then get the sum of the array
+        for(int i : nums){
+            right_sum += i;
+        }
+
+        //now calculating the pivot index using left sum
+        int left_sum = 0;
         for (int i = 0; i < nums.length; i++){
-            total_sum += nums[i];
-        }
-
-        /*getting the difference of the total sum and the current
-        * sum without including the current index would give us the
-        * pivot index if they equal zero */
-        int dif = 0;
-        for (int j = 0; j <= nums.length; j++){
-            if (j != 0) dif += nums[j - 1];
-            if (total_sum - dif - nums[j] == dif){
-             return j;
+            right_sum -= nums[i];
+            if (left_sum == right_sum){
+                return i;
             }
+            left_sum += nums[i];
         }
-        // if there is no pivot index return -1
+        // returning -1 otherwise
         return -1;
     }
 
