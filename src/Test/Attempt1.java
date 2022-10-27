@@ -25,12 +25,11 @@ public class Attempt1 {
         * pivot index if they equal zero*/
         int dif = 0;
         for (int j = 0; j <= nums.length; j++){
-            dif += nums[j - 1];
-            if (total_sum - dif - nums[j + 1] == dif){
-                return j + 1;
+            if (j != 0) dif += nums[j - 1];
+            if (total_sum - dif - nums[j] == dif){
+             return j;
             }
         }
-
         // if there is no pivot index return -1
         return -1;
     }
