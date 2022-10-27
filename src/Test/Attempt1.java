@@ -22,7 +22,7 @@ public class Attempt1 {
 
         /*getting the difference of the total sum and the current
         * sum without including the current index would give us the
-        * pivot index if they equal zero*/
+        * pivot index if they equal zero */
         int dif = 0;
         for (int j = 0; j <= nums.length; j++){
             if (j != 0) dif += nums[j - 1];
