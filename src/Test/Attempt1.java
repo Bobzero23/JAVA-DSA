@@ -10,39 +10,44 @@ import java.util.Stack;
 public class Attempt1 {
 
     /*solver method*/
-    public boolean arrayStringsAreEqual(String[] word1, String[] word2){
-        // variables to hold the string
-        String str1 = "";
-        String str2 = "";
+    public int pivotIndex(int[] nums) {
+        //if there is no index return 0
+        if (nums.length == 0) return  0;
 
-        // looping through an array and take the strings
-        for (int i = 0; i < word1.length; i++){
-            str1 = str1 + word1[i];
+        //getting the total sum of elements in the array
+        int total_sum = 0;
+        for (int i = 0; i < nums.length; i++){
+            total_sum += nums[i];
         }
 
-        // looping through an array and take the strings
-        for (int i = 0; i < word2.length; i++){
-            str2 = str2 + word2[i];
+        /*getting the difference of the total sum and the current
+        * sum without including the current index would give us the
+        * pivot index if they equal zero*/
+        int dif = 0;
+        for (int j = 0; j <= nums.length; j++){
+            dif += nums[j - 1];
+            if (total_sum - dif - nums[j + 1] == dif){
+                return j + 1;
+            }
         }
 
-        return str1.equals(str2);
+        // if there is no pivot index return -1
+        return -1;
     }
-
 
     /*main method*/
     public static void main(String[] args) {
-        //creating the object of the class
+
+        //creating object of the class
         Attempt1 object = new Attempt1();
 
-        //creating the arrays
-        String[] word1 = {"a", "cb"};
-        String[] word2 = {"ab", "c"};
+        //creating the nums array
+        int[] nums = {1,7,3,6,5,6}; // 28 - 17 = 11 - 3 = 9
 
-        //assigning the method to a variable
-        boolean result = object.arrayStringsAreEqual(word1, word2);
+        // assigning the method to a variable
+        int result = object.pivotIndex(nums);
 
         //displaying the result
-        System.out.println(result);
-
+        System.out.println("the pivot index is: " + result);
     }
 }
