@@ -1,35 +1,36 @@
 package Test;
 
-/*imports*/
-import java.util.Arrays;
-import java.util.Stack;
+/**Demonstration on how to check if the strings are isomorphic*/
 
-/**Demonstration on how to check if two arrays are equivalent*/
+
+/*imports*/
+import java.util.HashMap;
+import java.util.Map;
 
 /*main class*/
 public class Attempt1 {
 
     /*solver method*/
-    public int pivotIndex(int[] nums) {
-        //first getting the right sum
-        int right_sum = 0;
+    private String transformString(String s) {
+        Map<Character, Integer> indexMapping = new HashMap<>();
+        StringBuilder builder = new StringBuilder();
 
-        //then get the sum of the array
-        for(int i : nums){
-            right_sum += i;
-        }
+        for (int i = 0; i < s.length(); ++i) {
+            char c1 = s.charAt(i);
 
-        //now calculating the pivot index using left sum
-        int left_sum = 0;
-        for (int i = 0; i < nums.length; i++){
-            right_sum -= nums[i];
-            if (left_sum == right_sum){
-                return i;
+            if (!indexMapping.containsKey(c1)) {
+                indexMapping.put(c1, i);
             }
-            left_sum += nums[i];
+
+            builder.append(Integer.toString(indexMapping.get(c1)));
+            builder.append(" ");
         }
-        // returning -1 otherwise
-        return -1;
+        return builder.toString();
+    }
+
+    /*control method*/
+    public boolean isIsomorphic(String s, String t) {
+        return transformString(s).equals(transformString(t));
     }
 
     /*main method*/
@@ -38,13 +39,15 @@ public class Attempt1 {
         //creating object of the class
         Attempt1 object = new Attempt1();
 
-        //creating the nums array
-        int[] nums = {1,7,3,6,5,6}; // 28 - 17 = 11 - 3 = 9
+        //creating strings
+        String s = "egg";
+        String t = "add";
 
-        // assigning the method to a variable
-        int result = object.pivotIndex(nums);
+        //calling a method in a variable
+        boolean result = object.isIsomorphic(t, s);
 
         //displaying the result
-        System.out.println("the pivot index is: " + result);
+        System.out.println(result);
+
     }
 }
