@@ -9,10 +9,10 @@ public class Example1_demo {
     /*Recursion method*/
     static  void rec(int i){
         if(i > 0){
-            rec(i - 1);
             System.out.println(i);
+            rec(i - 1);
         }else{
-            System.out.println("i is less than one..");
+            System.out.println(i + " is less than one..");
         }
     }
 
