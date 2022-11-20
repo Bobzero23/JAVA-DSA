@@ -1,8 +1,10 @@
 package Test;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-/**Converting a sentence to array*/
+/** sorting a sentence */
 
 
 /*imports*/
@@ -12,13 +14,32 @@ import java.util.Arrays;
 public class Attempt1 {
 
     /*main method*/
+    public String sortSentence(String s) {
+        Map<Integer, String> map = new HashMap<>();
+
+        for(String word : s.split(" ")) {
+            int lastIndex = word.length() - 1;
+            int index = word.charAt(lastIndex) - '0';
+            String actualWord = word.substring(0, lastIndex);
+            map.put(index, actualWord);
+        }
+
+        StringBuilder actualString = new StringBuilder();
+        for(Map.Entry<Integer, String> mapper : map.entrySet()) {
+            actualString.append(mapper.getValue());
+            actualString.append(" ");
+        }
+        return actualString.toString().trim();
+    }
+
+
     public static void main(String[] args) {
-
-        String sentence = "This is a simple sentence";
-        String[] words = sentence.split(" ");
-        System.out.println(Arrays.toString(words));
-
-        //creating object of the class
         Attempt1 object = new Attempt1();
+
+        String s = "a3 this1 is2 sentence4";
+
+        String result = object.sortSentence(s);
+
+        System.out.println(result);
     }
 }
