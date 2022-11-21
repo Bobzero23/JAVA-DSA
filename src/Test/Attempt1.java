@@ -1,8 +1,6 @@
 package Test;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /** sorting a sentence */
 
@@ -14,32 +12,29 @@ import java.util.Map;
 public class Attempt1 {
 
     /*main method*/
-    public String sortSentence(String s) {
-        Map<Integer, String> map = new HashMap<>();
+    public int uniqueMorseRepresentations(String[] words) {
+        int counter = 0;
+        Set<String> set = new HashSet<>();
 
-        for(String word : s.split(" ")) {
-            int lastIndex = word.length() - 1;
-            int index = word.charAt(lastIndex) - '0';
-            String actualWord = word.substring(0, lastIndex);
-            map.put(index, actualWord);
+        for(int i = 0; i < words.length; i++) {
+            String lastChar = words[i].substring(words[i].length() - 1);
+            set.add(lastChar);
+            lastChar = "";
         }
 
-        StringBuilder actualString = new StringBuilder();
-        for(Map.Entry<Integer, String> mapper : map.entrySet()) {
-            actualString.append(mapper.getValue());
-            actualString.append(" ");
-        }
-        return actualString.toString().trim();
+        return set.size();
     }
 
 
     public static void main(String[] args) {
         Attempt1 object = new Attempt1();
 
-        String s = "a3 this1 is2 sentence4";
+        String[] words = {"gin", "zen", "gig", "msg"};
 
-        String result = object.sortSentence(s);
+        int result = object.uniqueMorseRepresentations(words);
 
         System.out.println(result);
+
     }
+
 }
