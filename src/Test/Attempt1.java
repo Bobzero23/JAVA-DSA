@@ -12,28 +12,28 @@ import java.util.*;
 public class Attempt1 {
 
     /*main method*/
-    public int uniqueMorseRepresentations(String[] words) {
-        int counter = 0;
-        Set<String> set = new HashSet<>();
-
-        for(int i = 0; i < words.length; i++) {
-            String lastChar = words[i].substring(words[i].length() - 1);
-            set.add(lastChar);
-            lastChar = "";
+    int x = 0;
+    public boolean isPowerOfTwo(int n) {
+        int ans = (int)Math.pow(2, x);
+        if(n == ans) {
+            return true;
+        }else {
+            x++;
+            return isPowerOfTwo(n);
         }
-
-        return set.size();
     }
 
 
     public static void main(String[] args) {
         Attempt1 object = new Attempt1();
 
-        String[] words = {"gin", "zen", "gig", "msg"};
+        int n = 8;
 
-        int result = object.uniqueMorseRepresentations(words);
+        boolean result = object.isPowerOfTwo(n);
 
         System.out.println(result);
+
+        System.out.println((int)Math.pow(2, 4));
 
     }
 
