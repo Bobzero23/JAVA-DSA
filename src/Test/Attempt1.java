@@ -11,21 +11,28 @@ import java.util.*;
 /*main class*/
 public class Attempt1 {
 
-    int[] myArray = {84,85,86,87,85,90,85,83,23,45,84,1,2,0};
-
     /*main method*/
-    static String firstSecond(int[] myArray) {
-        Arrays.sort(myArray);
-        return String.valueOf(myArray[myArray.length - 1] + " " + String.valueOf(myArray[myArray.length - 2]));
+    public  int[] removeDuplicates(int[] arr) {
+        int current = 0;
+        HashSet<Integer> set = new HashSet<>();
+
+        for(int i: arr) {
+            set.add(i);
+        }
+
+        int[] array = set.stream().mapToInt(Integer::intValue).toArray();
+
+        return array;
     }
 
 
     public static void main(String[] args) {
         Attempt1 object = new Attempt1();
 
-        System.out.println(firstSecond(object.myArray));
+        int[] arr = {1, 1, 2, 2, 3, 4, 5};
 
+        int[] result = object.removeDuplicates(arr);
 
+        System.out.println(Arrays.toString(result));
     }
-
 }
