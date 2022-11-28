@@ -12,29 +12,26 @@ import java.util.*;
 public class Attempt1 {
 
     /*main method*/
-    int x = 0;
-    public boolean isPowerOfTwo(int n) {
-        int ans = (int)Math.pow(2, x);
-        if(n == ans) {
-            return true;
-        }else {
-            x++;
-            return isPowerOfTwo(n);
+    public String capitalizeWord(String str) {
+        StringBuilder strB = new StringBuilder();
+        String[] array = str.split(" ");
+
+        for(String s:array) {
+            strB.append(s.substring(0, 1).toUpperCase() + s.substring(1, s.length())).append(" ");
         }
+
+        return strB.toString().trim();
     }
 
 
     public static void main(String[] args) {
         Attempt1 object = new Attempt1();
 
-        int n = 8;
+        String str = "i love Java";
 
-        boolean result = object.isPowerOfTwo(n);
+        String result = object.capitalizeWord(str);
 
         System.out.println(result);
-
-        System.out.println((int)Math.pow(2, 4));
-
     }
 
 }
