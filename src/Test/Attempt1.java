@@ -12,27 +12,48 @@ import java.util.*;
 public class Attempt1 {
 
     /*main method*/
-    public  int[] removeDuplicates(int[] arr) {
-        int current = 0;
-        HashSet<Integer> set = new HashSet<>();
 
-        for(int i: arr) {
-            set.add(i);
+    public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> output = new LinkedList<>();
+        Arrays.sort(nums);
+
+        for(int i = 0; i < nums.length - 2; i++) {
+            int start = i  + 1; int end = nums.length - 1;
+
+            if(i == 0 || nums[i] != nums[i - 1]) {
+                while(start < end) {
+                    int current = nums[i] + nums[start] + nums[end];
+
+                    if(current== 0) {
+                        output.add(Arrays.asList(nums[i], nums[start], nums[end]));
+
+                        while(start < end && nums[start] == nums[start + 1]) start++;
+                        while(start < end && nums[end] == nums[end - 1]) end--;
+
+                        start++;
+                        end--;
+
+                    }else if( current > 0) {
+                        end--;
+                    }else {
+                        start++;
+                    }
+                }
+            }
+
         }
 
-        int[] array = set.stream().mapToInt(Integer::intValue).toArray();
-
-        return array;
+        return output;
     }
 
 
     public static void main(String[] args) {
         Attempt1 object = new Attempt1();
 
-        int[] arr = {1, 1, 2, 2, 3, 4, 5};
+        int[] nums = {-1,0,1,2,-1,-4};
 
-        int[] result = object.removeDuplicates(arr);
+        List<List<Integer>> result = object.threeSum(nums);
 
-        System.out.println(Arrays.toString(result));
+        System.out.println(result);
     }
 }
