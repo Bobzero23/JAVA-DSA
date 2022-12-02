@@ -13,20 +13,55 @@ public class Attempt1 {
 
     /*main method*/
 
-    public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> output = new LinkedList<>();
+    public String longestPalindrome(String str) {
 
-        return output;
+        if (str.length() <= 1)
+            return str;
+
+        String LPS = "";
+
+        for (int i = 1; i < str.length(); i++) {
+
+            // Consider odd length
+            int low = i;
+            int high = i;
+            while(str.charAt(low) == str.charAt(high)) {
+                low--;
+                high++;
+
+                if (low == -1 || high == str.length())
+                    break;
+            }
+
+            String palindrome = str.substring(low+1, high);
+            if (palindrome.length() > LPS.length()) {
+                LPS = palindrome;
+            }
+
+            // Consider even length
+            low = i-1;
+            high = i;
+            while(str.charAt(low) == str.charAt(high)) {
+                low--;
+                high++;
+
+                if (low == -1 || high == str.length())
+                    break;
+            }
+
+            palindrome = str.substring(low+1, high);
+            if (palindrome.length() > LPS.length()) {
+                LPS = palindrome;
+            }
+        }
+
+        return LPS;
     }
 
 
     public static void main(String[] args) {
         Attempt1 object = new Attempt1();
 
-        int[] nums = {-1,0,1,2,-1,-4};
 
-        List<List<Integer>> result = object.threeSum(nums);
-
-        System.out.println(result);
     }
 }
