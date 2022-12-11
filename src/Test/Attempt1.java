@@ -14,7 +14,7 @@ public class Attempt1 {
 
         Arrays.sort(nums);
 
-        for(int i = 0; i < nums.length - 3; i++) {
+        for(int i = 0; i < nums.length - 3; i++)  {
             int leftPointer = i + 1;
             int rightPointer = nums.length - 1;
 
