@@ -1,0 +1,21 @@
+Linked list is just like a train, it has a head and a tail and the independent cars.
+
+DIFFERENCES BETWEEN LINKED LISTS AND ARRAYS
++ Linked list has links between its elements
++ Linked list has good for inserting and deleting elements
++ Linked list is better for shifting elements
++ You don't have to initialize the size of the linked list while creating it
++ Arrays are better for small data set
+
+TYPES OF LINKED LISTS
++ Singly Linked list -> a normal linked list every element has address of the previous element
++ Circular Singly Linked list -> a normal singly linked list with the tail has a reference to the head
++ Doubly Linked list -> every element has the address of the next and the previous element
++ Circular Doubly Linked list -> a doubly linked list with the tail has a reference to the head
+
+
+HOW TO IMPLEMENT A SINGLY LINKED LIST
++ Create an empty head and tail
++ Create an empty node
++ Initialize the data type of the node
++ link the tail and the head with a created node
