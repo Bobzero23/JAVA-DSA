@@ -1,10 +1,8 @@
-package Test;
+package Test.test1;
 /*Description-> 1389. Create Target Array in the Given Order*/
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /*main class*/
 public class Attempt2 {
