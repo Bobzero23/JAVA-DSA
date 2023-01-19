@@ -19,3 +19,18 @@ HOW TO IMPLEMENT A SINGLY LINKED LIST
 + Create an empty node
 + Initialize the data type of the node
 + link the tail and the head with a created node
+
+INSERTION IN SINGLY LINKED LIST
++ IF THERE IS NOTHING IN THE LINKED LIST
+- Simply connect the head and the tail to the new created node
++ TO THE BEGINNING
+- Node.next = head
+- Head = node
++ TO THE MIDDLE
+- Find location(loop)
+- Current.next = node
+- Node.next = Next_node
++ TO THE LAST
+- Node.next = null
+- Last.next = node
+- Tail = node
