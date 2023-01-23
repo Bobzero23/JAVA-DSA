@@ -2,44 +2,41 @@ package Test.test1;
 
 import java.util.*;
 
-/** 4 sum */
+/** 997leetcode 23 Day */
 
 
 /*main class*/
 public class Attempt1 {
 
     /*method*/
-    public List<List<Integer>> fourSum(int[] nums, int target) {
-        Set<List<Integer>> set = new HashSet<>();
+    public int findJudge(int n, int[][] trust) {
+        if(n == 1 && trust.length == 0) return 1;
 
-        Arrays.sort(nums);
+        int[] count = new int[n + 1];
 
-        for(int i = 0; i < nums.length - 3; i++) {
-            int leftPointer = i + 1;
-            int rightPointer = nums.length - 1;
-
-            while(leftPointer < rightPointer) {
-                if(nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3] == target) {
-                    set.add(Arrays.asList(nums[i], nums[i + 1], nums[i + 2], nums[i + 3]));
-                    rightPointer--;
-                    leftPointer++;
-                }
-            }
+        for(int i = 0; i < trust.length; i++) {
+            count[trust[i][0]]--;
+            count[trust[i][1]]++;
         }
 
-        return new ArrayList(set);
+        for(int i = 0; i < count.length; i++) {
+            if(count[i] == n - 1) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     /*main method*/
     public static void main(String[] args) {
         Attempt1 object = new Attempt1();
 
-        int target = 0;
-        int[] nums = {1,0,-1,0,-2,2};
+        int n = 3;
 
-        List<List<Integer>> result =  object.fourSum(nums, target);
+        int[][] trust = {{1,3},{2,3},{3,1}};
+
+        int result = object.findJudge(n, trust);
 
         System.out.println(result);
-
     }
 }
