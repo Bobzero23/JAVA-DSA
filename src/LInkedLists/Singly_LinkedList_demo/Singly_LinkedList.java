@@ -48,4 +48,22 @@ public class Singly_LinkedList {
         }
         size++;
     }
+
+    /*method to traversal the singly linked list*/
+    public void traversal_singly_linked_list(){
+        if (head == null) {
+            System.out.println("There is no value in the singly linked list..");
+        }else {
+            Node temp_node = head;
+            for (int i = 0; i < size; i++) {
+                System.out.print(temp_node.value);
+                temp_node = temp_node.next;
+
+                if (i != size - 1) {
+                    System.out.print(" -> ");
+                }
+            }
+
+        }
+    }
 }
