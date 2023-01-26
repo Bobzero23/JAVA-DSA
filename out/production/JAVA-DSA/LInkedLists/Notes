@@ -22,10 +22,11 @@ HOW TO IMPLEMENT A SINGLY LINKED LIST
 
 INSERTION IN SINGLY LINKED LIST
 + IF THERE IS NOTHING IN THE LINKED LIST
-- Simply connect the head and the tail to the new created node
+- Simply connect the head and the tail to the new created node and set next to null
 + TO THE BEGINNING
 - Node.next = head
 - Head = node
+- Node.tail = null
 + TO THE MIDDLE
 - Find location(loop)
 - Current.next = node
