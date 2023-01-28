@@ -8,6 +8,7 @@ public class Main {
         sll_object.insert_node(50, 2);
         System.out.println(sll_object.head.next.value);
         sll_object.traversal();
+        sll_object.search(32);
     }
 
     public static class Singly_Linked_List{
@@ -15,6 +16,7 @@ public class Main {
         public Node tail;
         public int size;
 
+        /**METHOD TO CREATE A NODE IN SINGLY LINKED LIST*/
         public Node create_node(int node_value) {
             Node node = new Node();
             node.next = null;
@@ -25,6 +27,7 @@ public class Main {
             return head;
         }
 
+        /**METHOD TO INSERT A NODE IN A SINGLY LINKED LIST*/
         public void insert_node(int node_value, int node_location) {
             Node node = new Node();
             node.value = node_value;
@@ -56,6 +59,7 @@ public class Main {
             size++;
         }
 
+        /**METHOD TO TRAVERSAL THE SINGLY LINKED LIST*/
         public void traversal() {
             if (head == null) {
                 System.out.println("The linked list is empty..");
@@ -68,7 +72,26 @@ public class Main {
                     }
                     temp_node = temp_node.next;
                 }
+                System.out.println();
             }
+        }
+
+        /**METHOD TO SEARCH FOR A NODE IN SINGLY LINKED LIST*/
+        boolean search(int nodeToSearch) {
+            if (head == null) {
+                System.out.println("The linked list is empty");
+            }else {
+                Node temp_node = head;
+                for (int i = 0; i < size; i++) {
+                    if (temp_node.value == nodeToSearch) {
+                        System.out.println("Node found at location " + i + "\n");
+                        return true;
+                    }
+                    temp_node = temp_node.next;
+                }
+            }
+            System.out.println("The node you are searching is not Available");
+            return false;
         }
     }
 
