@@ -7,6 +7,7 @@ public class Main {
         sll_object.insert_node(10, 1);
         sll_object.insert_node(50, 2);
         System.out.println(sll_object.head.next.value);
+        sll_object.traversal();
     }
 
     public static class Singly_Linked_List{
@@ -53,6 +54,21 @@ public class Main {
                 node.next = next_node;
             }
             size++;
+        }
+
+        public void traversal() {
+            if (head == null) {
+                System.out.println("The linked list is empty..");
+            }else {
+                Node temp_node = head;
+                for (int i = 0; i < size; i++) {
+                    System.out.print(temp_node.value);
+                    if (i != size - 1) {
+                        System.out.print(" -> ");
+                    }
+                    temp_node = temp_node.next;
+                }
+            }
         }
     }
 
