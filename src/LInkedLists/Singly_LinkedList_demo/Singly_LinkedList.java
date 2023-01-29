@@ -66,4 +66,23 @@ public class Singly_LinkedList {
 
         }
     }
+
+
+    /*method to search a node in singly linked list*/
+    public boolean search(int nodeToSearch) {
+        if (head == null) {
+            System.out.println("\nThe linked list is empty..");
+        }else {
+            Node temp_node = head;
+            for(int i = 0; i < size; i++) {
+                if (temp_node.value == nodeToSearch) {
+                    System.out.println("\nThe node is found at location " + i);
+                    return true;
+                }
+                temp_node = temp_node.next;
+            }
+        }
+        System.out.println("\nThe node you are looking for is unavailable");
+        return false;
+    }
 }
