@@ -15,6 +15,9 @@ public class Main {
 
         /**calling the traversing method*/
         sLL.traversal_singly_linked_list();
-        sLL.search(89);
+        sLL.search(28);
+        sLL.delete(3);
+        sLL.traversal_singly_linked_list();
+        sLL.search(28);
     }
 }
