@@ -118,4 +118,11 @@ public class Singly_LinkedList {
             size--;
         }
     }
+
+    /*deleting the entire singly linked list*/
+    public void deleteEntireLinkedList() {
+        head = null;
+        tail = null;
+        System.out.println("The Entire singly linked list deleted successfully..");
+    }
 }

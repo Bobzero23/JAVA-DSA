@@ -19,5 +19,7 @@ public class Main {
         sLL.delete(3);
         sLL.traversal_singly_linked_list();
         sLL.search(28);
+        sLL.deleteEntireLinkedList();
+        sLL.traversal_singly_linked_list();
     }
 }
