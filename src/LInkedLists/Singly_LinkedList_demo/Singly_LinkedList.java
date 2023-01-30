@@ -87,29 +87,29 @@ public class Singly_LinkedList {
     }
 
     public void delete(int location) {
-        if (head == null) {
+        if (head == null) { // if the linked list has no element
             System.out.println("The linked list is empty");
             return;
-        }else if (location == 0) {
+        }else if (location == 0) {// if we have to delete the first element
             head = head.next;
             size--;
-            if (size == 0) {
+            if (size == 0) { // if the element we deleted was the only element in the sll
                 tail = null;
             }
-        }else if (location >= size - 1) {
+        }else if (location >= size - 1) { // if we have to delete the last element
             Node temp_node = head;
             for (int i = 0; i < size - 1; i++) {
                 temp_node = temp_node.next;
             }
-            if (temp_node == head) {
+            if (temp_node == head) { // if the element we deleted was the only element in the sll
                 head = tail = null;
                 size--;
                 return;
             }
-            temp_node.next = null;
+            temp_node.next = null; // in case there was more element in the sll
             tail = temp_node;
             size--;
-        }else {
+        }else { // if we have to delete the element at any location
             Node temp_node = head;
             for (int i = 0; i < location - 1; i++) {
                 temp_node = temp_node.next;
