@@ -130,6 +130,12 @@ public class Main {
                 size--;
             }
         }
+
+        public void deleteEntireLinkedList() {
+            head = null;
+            tail = null;
+            System.out.println("The entire linked list is deleted successfully..");
+        }
     }
 
     public static class Node{

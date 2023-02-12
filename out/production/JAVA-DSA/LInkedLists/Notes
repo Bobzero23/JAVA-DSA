@@ -35,3 +35,27 @@ INSERTION IN SINGLY LINKED LIST
 - Node.next = null
 - Last.next = node
 - Tail = node
+
+TRAVERSAL IN SINGLY LINKED LIST
++ This one is too easy, simply initialize a new node as a head and then loop through the nodes and display each
+  node and after displaying a node set node we created to as the next node that is all.
+
+SEARCHING IN SINGLY LINKED LIST
++ This one is also pretty easy, simply initialize a new node as head and loop through all nodes and check if the
+  current node value is equal to the value we are searching if node set the current as the next node until you
+  find the node you are looking for if you wont find the node simply return FALSE and then display a message.
+
+DELETION IN SINGLY LINKED LIST BY THE GIVEN LOCATION
++ Firstly check if the singly list is empty or not
++ Initialize a temporary new node as head
++ Then check if you have to delete the first node then assign the head to the next node
++ check if the size is zero then the node we deleted was the only node that was in the linked list so then
+  set the tail to null too
++ Check if you are deleting the last element and initialize a temp node as head
++ Use for loop to find the element before the last element.. meh follow the code
+
+DELETION OF ENTIRE SINGLY LINKED LIST
++ Simply set the head and the tail as null and that is it.. garbage collector will delete all the elements bcoz
+  they don't have any connection with them
+
+

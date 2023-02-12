@@ -58,3 +58,4 @@ DELETION OF ENTIRE SINGLY LINKED LIST
 + Simply set the head and the tail as null and that is it.. garbage collector will delete all the elements bcoz
   they don't have any connection with them
 
+
