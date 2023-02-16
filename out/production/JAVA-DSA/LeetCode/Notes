@@ -9,3 +9,9 @@ TO DO
 352. Data Stream as Disjoint Intervals (Hard)
 460. LFU Cache (Hard)
 2477. Minimum Fuel Cost To Report To The Capital
+104. Maximum Depth of Binary Tree (Easy)
+
+
+MUST KNOW
+** Integer.toBinaryString(input) -> converts integer input into binaryString..
+** Integer.parseInt(input)
