@@ -7,6 +7,7 @@ public class Main {
         public Node tail;
         public int size;
 
+        /**method to create a circular singly linked list*/
         public Node createCSLL(int nodeValue) {
             Node node = new Node();
             node.value = nodeValue;
@@ -14,6 +15,20 @@ public class Main {
             head = node;
             tail = node;
             return head;
+        }
+
+        /**method to insert a node into circular singly linked list*/
+        public void insertCSLL(int nodeValue, int location) {
+            Node node = new Node();
+            node.value = nodeValue;
+
+            if (head == null) {
+                createCSLL(nodeValue);
+                return;
+            }else  if (location == 0) {
+                head.next = node;
+                head = node;
+            }
         }
     }
 

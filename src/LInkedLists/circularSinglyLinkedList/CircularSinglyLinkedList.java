@@ -5,7 +5,7 @@ public class CircularSinglyLinkedList {
     public Node tail;
     public int size;
 
-    /**method to create circular singly linked list (csll)*/
+    /**method to create circular singly linked list (CSLL)*/
     public Node createCSLL (int nodeValue) {
         head = new Node();
         Node node = new Node();
@@ -43,6 +43,23 @@ public class CircularSinglyLinkedList {
             node.next = tempNode.next;
             tempNode.next = node;
             size++;
+        }
+    }
+
+    /**method for traversing circular singly linked list*/
+    public void traverseCSLL() {
+        if (head != null) {
+            Node tempNode = head;
+            for (int i = 0; i < size; i++) {
+                System.out.println(tempNode.value);
+                if (i != size - 1) {
+                    System.out.println(" -> ");
+                }
+                tempNode = tempNode.next;
+            }
+            System.out.println();
+        }else {
+            System.out.println("The linked list is empty or doesn't exist..");
         }
     }
 }

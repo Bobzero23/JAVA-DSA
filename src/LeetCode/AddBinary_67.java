@@ -7,6 +7,6 @@ public class AddBinary_67 {
         int bLength = b.length();
         int carry = 0; //in case there is carrying while adding the binary
 
-
+        return null;
     }
 }
