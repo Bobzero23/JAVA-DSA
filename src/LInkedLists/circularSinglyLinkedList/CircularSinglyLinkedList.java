@@ -62,4 +62,23 @@ public class CircularSinglyLinkedList {
             System.out.println("The linked list is empty or doesn't exist..");
         }
     }
+
+    /**method for searching in circular singly linked list*/
+    public boolean searchCSLL(int nodeValue) {
+        if (head == null) {
+            System.out.println("The linked list is empty");
+            return false;
+        }else {
+            Node tempNode = head;
+            for (int i = 0; i < size; i++) {
+                if (tempNode.value == nodeValue) {
+                    System.out.println("The node found at location: " + i);
+                    return true;
+                }
+                tempNode = tempNode.next;
+            }
+        }
+        System.out.println("The node you are looking for does not exist");
+        return false;
+    }
 }
