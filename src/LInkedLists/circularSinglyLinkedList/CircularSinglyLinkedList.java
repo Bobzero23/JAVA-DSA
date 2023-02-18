@@ -28,13 +28,13 @@ public class CircularSinglyLinkedList {
         }else if (location == 0) { //inserting to the beginning
             node.next = head;
             head = node;
-            tail.next = node;
+             tail.next = head;
         }else if (location >= size) { //inserting to the end
-            tail.next = node;
-            tail = node;
-            tail.next = head;
+                tail.next = node;
+                tail = node;
+                tail.next = head;
         } else { //inserting anywhere else
-            Node tempNode = new Node();
+            Node tempNode = head;
             int index = 0;
             while (index < location - 1) {
                 tempNode = tempNode.next;
@@ -42,8 +42,8 @@ public class CircularSinglyLinkedList {
             }
             node.next = tempNode.next;
             tempNode.next = node;
-            size++;
         }
+        size++;
     }
 
     /**method for traversing circular singly linked list*/
@@ -51,9 +51,9 @@ public class CircularSinglyLinkedList {
         if (head != null) {
             Node tempNode = head;
             for (int i = 0; i < size; i++) {
-                System.out.println(tempNode.value);
+                System.out.print(tempNode.value);
                 if (i != size - 1) {
-                    System.out.println(" -> ");
+                    System.out.print(" -> ");
                 }
                 tempNode = tempNode.next;
             }
