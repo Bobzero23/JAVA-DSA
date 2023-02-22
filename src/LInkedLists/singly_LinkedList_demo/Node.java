@@ -1,4 +1,4 @@
-package LInkedLists.Singly_LinkedList_demo;
+package LInkedLists.singly_LinkedList_demo;
 
 public class Node {
     public int value;
