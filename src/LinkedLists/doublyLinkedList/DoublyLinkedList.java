@@ -47,12 +47,45 @@ public class DoublyLinkedList {
         }
         size++;
     }
+
+    /**method to forwardly traverse doubly linked list*/
+    public void forwardlyTraverseDLL() {
+        if (head != null) {
+            Node tempNode = head;
+            for (int i = 0; i < size; i++) {
+                System.out.print(tempNode.value);
+                tempNode = tempNode.next;
+                if (i != size - 1) {
+                    System.out.print(" -> ");
+                }
+            }
+        }else {
+            System.out.println("The linked list is empty or not found");
+        }
+        System.out.println();
+    }
+
+    /**method to backwardly traverse doubly linked list*/
+    public void backwardlyTraverseDLL(){
+        if (tail != null) {
+            Node tempNode = tail;
+            for (int i = size - 1; i >= 0; i--) {
+                System.out.print(tempNode.value);
+                tempNode = tempNode.prev;
+                if (i != 0) {
+                    System.out.print(" -> ");
+                }
+            }
+        }else {
+            System.out.println("The linked list does not exist");
+        }
+    }
 }
 
 
 
 
-/**SKETCHING
+/**INSERTION SKETCHING
  *
  * First try to link the next and the prev of the new node you created
  *

@@ -14,5 +14,8 @@ public class Main {
 
         System.out.println(dLL_object.head.next.next.value);
 
+        dLL_object.forwardlyTraverseDLL();
+        dLL_object.backwardlyTraverseDLL();
+
     }
 }
