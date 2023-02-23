@@ -1,4 +1,4 @@
-package LInkedLists.singly_LinkedList_demo;
+package LinkedLists.circularSinglyLinkedList;
 
 public class Node {
     public int value;

@@ -1,6 +1,4 @@
-package LInkedLists.circularSinglyLinkedList;
-
-import java.util.IllegalFormatCodePointException;
+package LinkedLists.circularSinglyLinkedList;
 
 public class CircularSinglyLinkedList {
     public Node head;

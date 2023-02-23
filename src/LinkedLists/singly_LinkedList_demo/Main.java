@@ -1,4 +1,4 @@
-package LInkedLists.singly_LinkedList_demo;
+package LinkedLists.singly_LinkedList_demo;
 
 public class Main {
     public static void main(String[] args) {
