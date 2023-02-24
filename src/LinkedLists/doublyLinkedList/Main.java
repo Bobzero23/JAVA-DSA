@@ -18,5 +18,10 @@ public class Main {
         dLL_object.backwardlyTraverseDLL();
         dLL_object.searchDLL(7);
 
+        dLL_object.deleteNode(3);
+        dLL_object.forwardlyTraverseDLL();
+        dLL_object.searchDLL(7);
+
+
     }
 }
