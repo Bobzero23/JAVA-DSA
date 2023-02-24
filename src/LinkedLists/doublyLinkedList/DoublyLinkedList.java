@@ -79,6 +79,25 @@ public class DoublyLinkedList {
         }else {
             System.out.println("The linked list does not exist");
         }
+        System.out.println();
+    }
+
+    /**method to search a node in doubly linked list */
+    public boolean searchDLL(int nodeToSearch) {
+        if (head == null) {
+            System.out.println("The linked list is empty or doesn't exist");
+        }else {
+            Node tempNode = head;
+            for (int i = 0; i < size; i++) {
+                if (tempNode.value == nodeToSearch) {
+                    System.out.println("The node with value " + nodeToSearch + " is found at location: " + i);
+                    return true;
+                }else {
+                    tempNode = tempNode.next;
+                }
+            }
+        }
+        return false;
     }
 }
 

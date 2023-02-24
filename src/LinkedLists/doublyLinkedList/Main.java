@@ -16,6 +16,7 @@ public class Main {
 
         dLL_object.forwardlyTraverseDLL();
         dLL_object.backwardlyTraverseDLL();
+        dLL_object.searchDLL(7);
 
     }
 }
