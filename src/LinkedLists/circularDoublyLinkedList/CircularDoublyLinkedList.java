@@ -49,4 +49,63 @@ public class CircularDoublyLinkedList {
         }
         size++;
     }
+
+    /**method to forwardly traverse circular doubly linked list*/
+    public void forwardTraversal() {
+        Node tempNode = new Node();
+
+        if (head != null) {
+            tempNode = head;
+            for (int i = 0; i < size; i++) {
+                System.out.print(tempNode.value);
+                tempNode = tempNode.next;
+                if (i != size - 1) {
+                    System.out.print(" -> ");
+                }
+            }
+        }else {
+            System.out.println("The linked list does not exist");
+        }
+    }
+
+    /**method to backward traverse circular doubly linked list*/
+    public void backwardTraversal() {
+        Node tempnNode = new Node();
+
+        if (tail != null) {
+            tempnNode = tail;
+            for (int i = size; i > 0; i--) {
+                System.out.print(tempnNode.value);
+                tempnNode = tempnNode.prev;
+                if (i > 1) {
+                    System.out.print(" -> ");
+                }
+            }
+        }
+    }
+
+    /**method for search a node in circular doubly linked list*/
+    public void searchCDLL(int nodeValue) {
+        if (head != null) {
+            Node tempNode = head;
+            for (int i = 0; i < size; i++) {
+                if (tempNode.value == nodeValue) {
+                    System.out.println("The node is found at location: " + i);
+                    return;
+                }else {
+                    tempNode = tempNode.next;
+                }
+            }
+        }else {
+            System.out.println("The linked list does not exits");
+        }
+    }
 }
+
+
+
+
+
+
+
+

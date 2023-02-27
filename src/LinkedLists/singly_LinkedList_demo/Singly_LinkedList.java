@@ -125,4 +125,5 @@ public class Singly_LinkedList {
         tail = null;
         System.out.println("The Entire singly linked list deleted successfully..");
     }
+
 }
