@@ -16,5 +16,7 @@ public class Main {
         cDLL_Object.insertToCDLL(7, 7);
         cDLL_Object.insertToCDLL(8, 8);
 
+        cDLL_Object.forwardTraverseCDLL();
+
     }
 }

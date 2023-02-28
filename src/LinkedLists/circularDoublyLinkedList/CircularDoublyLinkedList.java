@@ -49,4 +49,21 @@ public class CircularDoublyLinkedList {
         }
         size++;
     }
+
+    /**method to forward traverse circular doubly linked list*/
+    public void forwardTraverseCDLL() {
+        Node tempNode = head;
+        if (head != null) {
+            for (int i = 0; i < size; i++) {
+                System.out.print(tempNode.value);
+                tempNode = tempNode.next;
+                if (i != size - 1) {
+                    System.out.print(" -> ");
+                }
+            }
+        }else {
+            System.out.println("The linked list does not exist");
+        }
+        System.out.println();
+    }
 }
