@@ -16,13 +16,5 @@ public class Main {
         cDLL_Object.insertToCDLL(7, 7);
         cDLL_Object.insertToCDLL(8, 8);
 
-        cDLL_Object.forwardTraversal();
-        System.out.println();
-
-        cDLL_Object.backwardTraversal();
-        System.out.println();
-
-        cDLL_Object.searchCDLL(5);
-
     }
 }
