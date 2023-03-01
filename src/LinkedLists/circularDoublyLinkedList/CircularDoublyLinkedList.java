@@ -85,13 +85,13 @@ public class CircularDoublyLinkedList {
     }
 
     /**method to search for a node in circular doubly linked list*/
-    public void searchCDLL(int nodeValue) {
+    public boolean searchCDLL(int nodeValue) {
         Node tempNode = head;
         if (head != null) {
             for (int i = 0; i < size; i++) {
                 if (tempNode.value == nodeValue) {
                     System.out.println("The node is found at location: " + i);
-                    return;
+                    return true;
                 }else {
                     tempNode = tempNode.next;
                 }
@@ -99,5 +99,65 @@ public class CircularDoublyLinkedList {
         }else {
             System.out.println("The linked list does not exist");
         }
+        System.out.println("The node you are looking for does not exist");
+        return false;
+    }
+
+    /**method to delete a node circular doubly linked list*/
+    public void deleteNodeInCDDL(int location) {
+        if (head == null) {
+            System.out.println("The linked list does not exist");
+            return;
+        }else if (location == 0) {
+            if (size == 1) {
+                head.next = null;
+                head.prev = null;
+                head = tail = null;
+                size--;
+                return;
+            }else {
+                head = head.next;
+                head.prev = tail;
+                tail.next = head;
+                size--;
+            }
+        }else if (location >= size) {
+            if (size == 1) {
+                head.next = null;
+                head.prev = null;
+                head = tail = null;
+                size--;
+                return;
+            }else {
+                tail = tail.prev;
+                tail.next = head;
+                head.prev = tail;
+            }
+        }else {
+            Node tempNode = head;
+            for (int i = 0; i < location - 1; i++) {
+                tempNode = tempNode.next;
+            }
+            tempNode.next = tempNode.next.next;
+            tempNode.next.prev = tempNode;
+            size--;
+        }
+    }
+
+    /**method to delete the entire circular doubly linked list*/
+    public void deleteEntireCDLL() {
+        Node tempNode = head;
+        if (head != null) {
+            for (int i = 0; i < size; i++) {
+                tempNode.prev = null;
+                tempNode = tempNode.next;
+            }
+            head = tail = null;
+        }
+        System.out.println("The entire CDLL is deleted successfully");
     }
 }
+
+
+
+

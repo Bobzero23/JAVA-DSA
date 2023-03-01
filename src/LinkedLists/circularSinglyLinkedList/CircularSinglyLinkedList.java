@@ -74,11 +74,12 @@ public class CircularSinglyLinkedList {
                 if (tempNode.value == nodeValue) {
                     System.out.println("The node found at location: " + i);
                     return true;
+                }else {
+                    tempNode = tempNode.next;
                 }
-                tempNode = tempNode.next;
             }
+            System.out.println("The node you are looking for does not exist");
         }
-        System.out.println("The node you are looking for does not exist");
         return false;
     }
 
