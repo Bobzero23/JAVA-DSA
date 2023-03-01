@@ -19,5 +19,6 @@ public class Main {
         cDLL_Object.forwardTraverseCDLL();
         cDLL_Object.backwardTraverseCDLL();
 
+        cDLL_Object.searchCDLL(7);
     }
 }

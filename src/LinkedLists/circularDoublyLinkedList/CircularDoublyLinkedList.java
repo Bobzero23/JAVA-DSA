@@ -85,7 +85,7 @@ public class CircularDoublyLinkedList {
     }
 
     /**method to search for a node in circular doubly linked list*/
-    public void deletionCDLL(int nodeValue) {
+    public void searchCDLL(int nodeValue) {
         Node tempNode = head;
         if (head != null) {
             for (int i = 0; i < size; i++) {
