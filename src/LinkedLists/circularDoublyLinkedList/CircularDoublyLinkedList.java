@@ -66,4 +66,21 @@ public class CircularDoublyLinkedList {
         }
         System.out.println();
     }
+
+    /**method to backward traverse circular doubly linked list*/
+    public void backwardTraverseCDLL() {
+        Node tempNode = tail;
+        if (tail != null) {
+            for (int i = size; i > 0; i--) {
+                System.out.print(tempNode.value);
+                tempNode = tempNode.prev;
+                if (i != 1) {
+                    System.out.print(" -> ");
+                }
+            }
+        }else {
+            System.out.println("The linked list does not exist");
+        }
+        System.out.println();
+    }
 }
