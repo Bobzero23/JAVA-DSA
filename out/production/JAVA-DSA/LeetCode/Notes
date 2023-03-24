@@ -17,4 +17,6 @@ TO DO
 
 MUST KNOW
 ** Integer.toBinaryString(input) -> converts integer input into binaryString..
-** Integer.parseInt(input)
+** Integer.parseInt(input) -> converts string to integer
+** Integer.toString(int) -> converts integer to string
+** By concatenating integer with string als integer will be converted to string
