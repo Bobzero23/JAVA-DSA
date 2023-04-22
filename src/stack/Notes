@@ -1,0 +1,10 @@
+Stack
++ Last In first out
++ Example of the usage of the stack is the back button, it is always useful when the last object matters
+
+Stack Methods
++ Push
++ Pop -> deletes the last element
++ Peek -> Returning the last element
++ isFull
++ isEmpty
