@@ -5,9 +5,13 @@ public class CheckIfStraightLine_1232 {
         int outerLength = coordinates.length;
         int innerLength = coordinates[0].length;
 
-        for(int i = 0; i < outerLength; i++) {
+        for(int i = 1; i < outerLength; i++) {
+            for (int j = 0; j < innerLength; j++) {
 
+            }
         }
+
+        return true;
     }
 
     public static void main(String[] args) {
