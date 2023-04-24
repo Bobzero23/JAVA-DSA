@@ -22,27 +22,23 @@ public class LinkedList {
         if(head == null) {
             createSinglyLinkedList(nodeValue);
             return;
-        }else if(location == 0) {
+        }else{
             node.next = head;
             head = node;
-        }else if(location >= size) {
-            node.next = null;
-            tail.next = node;
-            tail = node;
-        }else {
-            Node tempNode = head;
-            int index = 0;
-
-            while(index < location - 1) {
-                tempNode = tempNode.next;
-                index++;
-            }
-
-            Node nextNode = tempNode.next;
-            tempNode.next = node;
-            node.next = nextNode;
         }
-
         size++;
+    }
+
+    public void delete(int location) {
+        if (head == null) {
+            System.out.println("The linked list is empty");
+            return;
+        }else {
+            head = head.next;
+            if (size == 0) {
+                tail = null;
+            }
+            size--;
+        }
     }
 }
