@@ -41,6 +41,7 @@ public class Singly_LinkedList {
             int index = 0;
             while(index < location - 1) {
                 temp_node = temp_node.next;
+                index++;
             }
             Node next_node = temp_node.next;
             temp_node.next = node;
