@@ -28,6 +28,19 @@ public class Stack {
     }
 
     public void peek() {
-        System.out.println("The top value is: " + linkedList.head.value);
+        if (linkedList.head == null) {
+            System.out.println("The stack is empty");
+        }else {
+            System.out.println("The top value is: " + linkedList.head.value);
+        }
+    }
+
+    public void deleteStack() {
+        if (isEmpty()) {
+            System.out.println("The stack is already empty");
+        }else {
+            linkedList.head = null;
+            System.out.println("The stack successfully deleted");
+        }
     }
 }
