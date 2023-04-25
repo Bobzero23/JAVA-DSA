@@ -8,7 +8,9 @@ public class Main {
         stack1.push(2);
         stack1.push(3);
 
+        stack1.peek();
         stack1.pop();
+        stack1.peek();
 
     }
 }

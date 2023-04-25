@@ -26,4 +26,8 @@ public class Stack {
             System.out.println("The value " + value + " was deleted successfully.");
         }
     }
+
+    public void peek() {
+        System.out.println("The top value is: " + linkedList.head.value);
+    }
 }
