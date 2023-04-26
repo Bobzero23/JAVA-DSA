@@ -19,4 +19,19 @@ public class Queue {
     public boolean isEmpty() {
         return beginningOfQueue == - 1;
     }
+
+    public void enQueue(int value) {
+        if (isFull()) {
+            System.out.println("The queue is full");
+        }else if (isEmpty()) {
+            beginningOfQueue = 0;
+            topOfQueue++;
+            array[topOfQueue] = value;
+            System.out.println("The value " + value + " inserted successfully");
+        }else  {
+            topOfQueue++;
+            array[topOfQueue] = value;
+            System.out.println("The value " + value + " inserted successfully");
+        }
+    }
 }
