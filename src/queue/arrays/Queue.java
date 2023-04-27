@@ -48,4 +48,18 @@ public class Queue {
             return result;
         }
     }
+
+    public int peek() {
+        if (!isEmpty()) {
+            return array[beginningOfQueue];
+        }else {
+            System.out.println("The queue is empty");
+            return -1;
+        }
+    }
+
+    public void deleteQueue() {
+        array = null;
+        System.out.println("Queue is successfully deleted");
+    }
 }
