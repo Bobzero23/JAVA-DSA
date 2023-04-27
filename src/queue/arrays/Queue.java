@@ -13,7 +13,7 @@ public class Queue {
     }
 
     public boolean isFull() {
-        return topOfQueue == array.length - 1;
+        return topOfQueue == array.length                                                                                                                                                                                                                                                                                                   - 1;
     }
 
     public boolean isEmpty() {
@@ -32,6 +32,20 @@ public class Queue {
             topOfQueue++;
             array[topOfQueue] = value;
             System.out.println("The value " + value + " inserted successfully");
+        }
+    }
+
+    public int deQueue() {
+        if (isEmpty()) {
+            System.out.println("The queue is empty");
+            return -1;
+        }else {
+            int result = array[beginningOfQueue];
+            beginningOfQueue++;
+            if (beginningOfQueue > topOfQueue) {
+                beginningOfQueue = topOfQueue = -1;
+            }
+            return result;
         }
     }
 }
