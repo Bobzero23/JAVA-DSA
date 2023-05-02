@@ -12,3 +12,4 @@ Stack Methods
 Stack with LinkedList
 Note: The insert and delete methods of linked list with stack are different from the original one because in
 insertion we always insert in the beginning and we delete in the beginning.
+
