@@ -35,8 +35,6 @@ public class CircularQueue {
         } else  {
             if (topOfQueue + 1 == size) {
                 topOfQueue = 0;
-            }else {
-                topOfQueue++;
             }
             topOfQueue++;
             array[topOfQueue] = value;
@@ -44,4 +42,21 @@ public class CircularQueue {
         }
     }
 
+    public int deQueue() {
+        if (isEmpty()) {
+            System.out.println("The queue is empty.");
+            return -1;
+        }else {
+            int result = array[beginningOfQueue];
+            array[beginningOfQueue] = Integer.MIN_VALUE; //setting this value to show that it's deleted
+            if (beginningOfQueue == topOfQueue) { //this means we only have one element
+                beginningOfQueue = topOfQueue = -1; //that why we set them both to -1 after deleting
+            }else if (beginningOfQueue + 1 == size) { //if so, since it is circular queue
+                beginningOfQueue = 0; //this will become the next beginning of the queue
+            }else {
+                beginningOfQueue++;
+            }
+            return result;
+        }
+    }
 }

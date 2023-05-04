@@ -14,6 +14,14 @@ public class Main {
         circularQueue.enQueue(50);
         circularQueue.enQueue(60);
 
+        int result = circularQueue.deQueue();
+        System.out.println(result);
+
+        int result1 = circularQueue.deQueue();
+        System.out.println(result1);
+
+        int result2 = circularQueue.deQueue();
+        System.out.println(result2);
     }
 }
 
