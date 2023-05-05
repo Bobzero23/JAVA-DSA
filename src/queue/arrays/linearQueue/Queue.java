@@ -1,4 +1,4 @@
-package queue.arrays;
+package queue.arrays.linearQueue;
 
 public class Queue {
     int[] array;

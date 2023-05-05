@@ -1,4 +1,4 @@
-package queue.circularQueue;
+package queue.arrays.circularQueue;
 
 public class CircularQueue {
     int[] array;
