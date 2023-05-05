@@ -7,6 +7,9 @@ public class Main {
         boolean isEmpty = circularQueue.isEmpty();
         System.out.println(isEmpty);
 
+        int peek = circularQueue.peek();
+        System.out.println(peek);
+
         circularQueue.enQueue(10);
         circularQueue.enQueue(20);
         circularQueue.enQueue(30);
@@ -22,6 +25,11 @@ public class Main {
 
         int result2 = circularQueue.deQueue();
         System.out.println(result2);
+
+        int peek1 = circularQueue.peek();
+        System.out.println(peek1);
+
+        circularQueue.deleteQueue();
     }
 }
 
