@@ -1,0 +1,4 @@
+Queues
++ the only different between stack and queue is that stack is using LIFO and queue is using LIFO.
+Note: because of LIFO  using Linear Queue causes some space-inefficiency when we dequeue the queue the beginning of
+the queue left empty and to solve this we need to use Circular Queue.
