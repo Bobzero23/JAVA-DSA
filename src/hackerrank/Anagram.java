@@ -6,10 +6,6 @@ import java.util.Scanner;
 public class Anagram {
 
         static boolean isAnagram(String a, String b) {
-            if(a.length() != b.length()) {
-                System.out.println("Not Anagrams");
-                return false;
-            }
 
             String aString = a.toLowerCase();
             String bString = b.toLowerCase();
@@ -26,12 +22,11 @@ public class Anagram {
             }
 
             for(int i = 0; i < aCharArray.length; i++) {
-                if(aCharArray[i] != bCharArray[i]);
-                System.out.println("Not Anagrams");
-                return false;
+                if(aCharArray[i] != bCharArray[i]) {
+                    return false;
+                }
             }
 
-            System.out.println("Anagrams");
             return true;
         }
 
