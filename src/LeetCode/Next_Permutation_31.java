@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * starting from right to left find the first lowest number
  * swap it with the first highest number to its right
- * the reverse from the swapped number all the numbers to the right
+ * then reverse from the swapped number all the numbers to the right
  */
 
 public class Next_Permutation_31 {
@@ -20,7 +20,10 @@ public class Next_Permutation_31 {
         if(i >= 0) {
             int j = nums.length - 1;
 
-            while(j >= 0 && nums[j] <= nums[i]) j--;
+            while(j >= 0 && nums[j] <= nums[i]) {
+                j--;
+            }
+
             swap(nums, i, j);
         }
 
@@ -47,7 +50,7 @@ public class Next_Permutation_31 {
     public static void main(String[] args) {
         Next_Permutation_31 object = new Next_Permutation_31();
 
-        int[] nums = {1,1,5};
+        int[] nums = {1, 1, 5, 6, 3, 7};
 
         object.next_Permutation(nums);
     }
