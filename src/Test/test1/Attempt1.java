@@ -29,14 +29,10 @@ public class Attempt1 {
 
     /*main method*/
     public static void main(String[] args) {
-        Attempt1 object = new Attempt1();
+        int[] array = {4, 6, 200, 8, 1, 3, 5};
 
-        int n = 3;
+        Arrays.sort(array);
 
-        int[][] trust = {{1,3},{2,3},{3,1}};
-
-        int result = object.findJudge(n, trust);
-
-        System.out.println(result);
+        System.out.println(Arrays.toString(array));
     }
 }
