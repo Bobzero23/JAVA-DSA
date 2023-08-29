@@ -1,10 +1,17 @@
 package Test.test3;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 class Main{
     public static void main(String[] args) {
-        String str = "Bobzero";
-        System.out.println(str.substring(0, 4));
-        str.substring(0, 4);
-        System.out.println(str);
+        Set<List<Integer>> set = new HashSet<>();
+
+        set.add(Arrays.asList(1, 5, 6));
+        set.add(Arrays.asList(1, 5, 6));
+        System.out.println(set);
+
     }
 }
