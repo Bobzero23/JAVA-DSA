@@ -18,7 +18,7 @@ public class LargestRectangleInHistogram_84 {
                 area = Math.max(area, h * (i - index));
                 start = index;
             }
-            stack.push(new Pair(start,curHt));
+            stack.push(new Pair<>(start,curHt));
         }
 
         while(!stack.isEmpty()){
