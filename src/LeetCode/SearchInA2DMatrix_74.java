@@ -3,6 +3,7 @@ package LeetCode;
 public class SearchInA2DMatrix_74 {
     public static boolean searchMatrix(int[][] matrix, int target) {
         int i = 0, j = matrix[0].length - 1;
+
         while (i < matrix.length && j >= 0) {
             if (matrix[i][j] == target) {
                 return true;
