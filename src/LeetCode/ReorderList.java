@@ -11,7 +11,7 @@ public class ReorderList {
           ListNode(int val, ListNode next) { this.val = val; this.next = next; }
       }
 
-    public void reorderList(ListNode head) {
+    public static void reorderList(ListNode head) {
 
         //Find middle of list using a slow and fast pointer approach
         ListNode slow = head;
@@ -45,6 +45,29 @@ public class ReorderList {
     }
 
     public static void main(String[] args) {
+        ReorderList reorderList = new ReorderList();
 
+        ReorderList.ListNode head = reorderList.new ListNode(1);
+        head.next = reorderList.new ListNode(2);
+        head.next.next = reorderList.new ListNode(3);
+        head.next.next.next = reorderList.new ListNode(4);
+        head.next.next.next.next = reorderList.new ListNode(5);
+
+        System.out.println("Original list: ");
+        printList(head);
+
+        System.out.println("Reordered list: ");
+        reorderList(head);
+        printList(head);
+    }
+
+    private static void printList(ListNode head) {
+          ReorderList.ListNode current = head;
+
+          while (current != null) {
+              System.out.print(current.val + " ");
+              current = current.next;
+          }
+        System.out.println();
     }
 }
