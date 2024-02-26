@@ -1,5 +1,8 @@
 package LeetCode;
 
+
+import java.util.Stack;
+
 public class ReverseLinkedList {
     public static class ListNode {
         int val;
@@ -34,6 +37,25 @@ public class ReverseLinkedList {
         System.out.println();
     }
 
+    public static ListNode reverseListWithStack(ListNode head) {
+        Stack<Integer> stack = new Stack<>();
+
+        while (head != null) {
+            stack.push(head.val);
+            head = head.next;
+        }
+
+        ListNode reversedList = new ListNode();
+        ListNode ptr = reversedList;
+
+        while (!stack.isEmpty()) {
+            ptr.next = new ListNode(stack.pop());
+            ptr = ptr.next;
+        }
+
+        return reversedList.next;
+    }
+
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
@@ -45,7 +67,8 @@ public class ReverseLinkedList {
         printList(head);
 
         System.out.println("Reversed list");
-        ListNode reversedList = reverseList(head);
+//        ListNode reversedList = reverseList(head);
+        ListNode reversedList = reverseListWithStack(head);
         printList(reversedList);
     }
 }
