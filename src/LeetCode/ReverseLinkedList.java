@@ -1,6 +1,7 @@
 package LeetCode;
 
 
+import java.util.List;
 import java.util.Stack;
 
 public class ReverseLinkedList {
@@ -12,7 +13,7 @@ public class ReverseLinkedList {
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
-    public static ListNode  reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode next;
 
@@ -67,8 +68,8 @@ public class ReverseLinkedList {
         printList(head);
 
         System.out.println("Reversed list");
-//        ListNode reversedList = reverseList(head);
-        ListNode reversedList = reverseListWithStack(head);
+        ListNode reversedList = reverseList(head);
+//        ListNode reversedList = reverseListWithStack(head);
         printList(reversedList);
     }
 }
