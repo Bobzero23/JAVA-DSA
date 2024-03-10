@@ -31,5 +31,12 @@ public class Demo {
         /*displaying the array*/
         System.out.println(Arrays.deepToString(sArr));
 
+        /** iterating and printing the array */
+        for (int i = 0; i < sArr.length; i++) {
+            for(int j = 0; j < sArr[0].length; j++) {
+                System.out.print(sArr[i][j] + " ");
+            }
+        }
+
     }
 }

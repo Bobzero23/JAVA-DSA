@@ -57,6 +57,23 @@ public class ReverseLinkedList {
         return reversedList.next;
     }
 
+    public static ListNode reverseLinkedList(ListNode head) {
+        if (head == null || head.next == null) return head;
+
+        ListNode previousNode = null;
+        ListNode nextNode = null;
+        ListNode currentNode = head;
+
+        while (currentNode != null) {
+            nextNode = currentNode.next;
+            currentNode.next = previousNode;
+            previousNode = currentNode;
+            currentNode = nextNode;
+        }
+
+        return previousNode;
+    }
+
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
@@ -68,7 +85,7 @@ public class ReverseLinkedList {
         printList(head);
 
         System.out.println("Reversed list");
-        ListNode reversedList = reverseList(head);
+        ListNode reversedList = reverseLinkedList(head);
 //        ListNode reversedList = reverseListWithStack(head);
         printList(reversedList);
     }

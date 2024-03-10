@@ -1,5 +1,7 @@
 package LinkedLists.singly_LinkedList_demo;
 
+import java.util.Stack;
+
 public class Singly_LinkedList {
 
     /*Their types are node because both of them will be pointed to the node*/
