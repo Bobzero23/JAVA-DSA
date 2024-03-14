@@ -32,6 +32,11 @@ public class Main {
         N4.right = N9;
 
         binaryTree.root = N1;
+        System.out.println("per-order traversal");
         binaryTree.preOrder(binaryTree.root);
+        System.out.println("\nin-order traversal");
+        binaryTree.inOrder(binaryTree.root);
+        System.out.println("\npost-order traversal");
+        binaryTree.postOrder(binaryTree.root);
     }
 }
