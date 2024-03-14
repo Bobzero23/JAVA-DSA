@@ -38,5 +38,7 @@ public class Main {
         binaryTree.inOrder(binaryTree.root);
         System.out.println("\npost-order traversal");
         binaryTree.postOrder(binaryTree.root);
+        System.out.println("\nlevel-order traversal");
+        binaryTree.levelOrder();
     }
 }
