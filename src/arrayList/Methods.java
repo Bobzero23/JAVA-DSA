@@ -8,6 +8,8 @@ public class Methods {
         System.out.println(list);
         Collections.sort(list);
         System.out.println(list);
+        list.sort(Collections.reverseOrder());
+        System.out.println(list);
 
     }
 }
