@@ -40,5 +40,11 @@ public class Main {
         binaryTree.postOrder(binaryTree.root);
         System.out.println("\nlevel-order traversal");
         binaryTree.levelOrder();
+        System.out.println("\nlevel-order searching");
+        binaryTree.levelOrderSearch("N7");
+        System.out.println("\nlevel-order insertion");
+        binaryTree.leverOrderInsertion("N10");
+        System.out.println("\nlevel-order traversal");
+        binaryTree.levelOrder();
     }
 }
