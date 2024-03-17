@@ -43,6 +43,11 @@ public class BinaryTreeLinkedList {
 
     /*level-order traversal*/
     void levelOrder() {
+        if (root == null) {
+            System.out.println("There is no tree available");
+            return;
+        }
+
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
 
@@ -159,5 +164,39 @@ public class BinaryTreeLinkedList {
                 queue.add(currentNode.right);
             }
         }
+    }
+
+    /*delete a node*/
+    public void deleteNode(String value) {
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+
+
+        while (!queue.isEmpty()) {
+            Node currentNode = queue.remove();
+
+            if (currentNode.value.equals(value)) {
+                Node deepestNode = getDeepestNode();
+                deleteDeepestNode();
+                currentNode.value = deepestNode.value;
+                return;
+            }
+
+            if (currentNode.left != null) {
+                queue.add(currentNode.left);
+            }
+
+            if (currentNode.right != null) {
+                queue.add(currentNode.right);
+            }
+        }
+
+        System.out.println("Couldn't find the value in the tree");
+    }
+
+    /*deleting the whole tree*/
+    public void deleteTree() {
+        root = null;
+        System.out.println("The tree is deleted");
     }
 }

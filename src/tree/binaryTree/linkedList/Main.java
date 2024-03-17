@@ -53,6 +53,15 @@ public class Main {
         binaryTree.deleteDeepestNode();
         System.out.println("\nlevel-order traversal");
         binaryTree.levelOrder();
+        System.out.println("\n\ndeleting a node");
+        binaryTree.deleteNode("N6");
+        System.out.println("\nlevel-order traversal");
+        binaryTree.levelOrder();
+        System.out.println("\ndeleting the whole tree");
+        binaryTree.deleteTree();
+        System.out.println("\nlevel-order traversal");
+        binaryTree.levelOrder();
+
 
     }
 }
