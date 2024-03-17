@@ -116,4 +116,48 @@ public class BinaryTreeLinkedList {
             }
         }
     }
+
+    /*get deepest node*/
+    public Node getDeepestNode() {
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        Node currentNode = null;
+
+        while (!queue.isEmpty()) {
+            currentNode = queue.remove();
+
+            if (currentNode.left != null) {
+                queue.add(currentNode.left);
+            }
+
+            if (currentNode.right != null) {
+                queue.add(currentNode.right);
+            }
+        }
+
+        return currentNode;
+    }
+
+    /*deleting the deepest node*/
+    public void deleteDeepestNode() {
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        Node previousNode, currentNode = null;
+
+        while (!queue.isEmpty()) {
+            previousNode = currentNode;
+            currentNode = queue.remove();
+
+            if (currentNode.left == null) {
+                previousNode.right = null;
+                return;
+            }else if (currentNode.right == null) {
+                currentNode.left = null;
+                return;
+            }else {
+                queue.add(currentNode.left);
+                queue.add(currentNode.right);
+            }
+        }
+    }
 }

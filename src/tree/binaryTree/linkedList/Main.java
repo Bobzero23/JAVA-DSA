@@ -46,5 +46,13 @@ public class Main {
         binaryTree.leverOrderInsertion("N10");
         System.out.println("\nlevel-order traversal");
         binaryTree.levelOrder();
+        System.out.println("\ngetting the deepest node");
+        Node deepestNode = binaryTree.getDeepestNode();
+        System.out.println("The deepest node is: " + deepestNode.value);
+        System.out.println("\ndeleting the deepest node");
+        binaryTree.deleteDeepestNode();
+        System.out.println("\nlevel-order traversal");
+        binaryTree.levelOrder();
+
     }
 }
