@@ -62,6 +62,5 @@ public class Main {
         System.out.println("\nlevel-order traversal");
         binaryTree.levelOrder();
 
-
     }
 }
