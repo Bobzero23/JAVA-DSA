@@ -43,7 +43,7 @@ public class DiameterOfBT {
                 int leftDepth = map.getOrDefault(node.left, 0);
                 int rightDepth = map.getOrDefault(node.right, 0);
 
-                // Put the max depth at a node in the map
+                //finding the longest depth between left and right and then add 1 and assign to the parent
                 map.put(node, 1 + Math.max(leftDepth, rightDepth));
 
                 // Update the max diameter found so far
