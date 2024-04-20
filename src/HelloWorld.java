@@ -1,5 +1,10 @@
+import java.sql.SQLOutput;
+
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println(6/4);
+        Integer number = 7;
+        if (number instanceof Integer) {
+            System.out.println("the given number is ineteger");
+        }
     }
 }
