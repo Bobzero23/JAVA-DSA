@@ -1,30 +1,24 @@
 package LeetCode;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class TopKFrequent_347 {
     public static int[] topKFrequent(int[] nums, int k) {
+        int[] result = new int[k];
+        Map<Integer, Integer> frequencies = new HashMap<>();
 
-        Map<Integer,Integer> storeFrequency= new HashMap<>();
+        for (int num: nums) frequencies.put(num, frequencies.getOrDefault(num, 0) + 1);
 
-        for (int i: nums) storeFrequency.put(i,storeFrequency.getOrDefault(i,0)+1);
+        List<Map.Entry<Integer, Integer>> list = new ArrayList<>(frequencies.entrySet());
 
-        PriorityQueue<Map.Entry<Integer,Integer>> pq = new PriorityQueue <>((a, b) -> b.getValue() - a.getValue());
+        list.sort((a, b) -> b.getValue().compareTo(a.getValue()));
 
-        for (Map.Entry entry : storeFrequency.entrySet())
-        {
-            pq.add(entry);
+        for (int i = 0; i < k; i++) {
+            Map.Entry<Integer, Integer> entry = list.get(i);
+            result[i] = entry.getKey();
         }
 
-        int [] output = new int [k];
-        for (int i=0; i<k;i++)
-        {
-            output[i]= pq.poll().getKey();
-        }
-        return output;
+        return result;
     }
 
     public static void main(String[] args) {
